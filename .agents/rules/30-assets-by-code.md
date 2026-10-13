@@ -1,0 +1,15 @@
+# Rule 30 — Aset dibuat dengan kode (public/assets)
+
+**Prinsip**: 55 aset doll buatan pemilik dan semua gambar referensi hanya dibaca untuk bentuk, proporsi, warna, suasana. Tidak ada gambar lama yang disalin ke `public/`. Semua aset akhir lahir dari kode.
+**Arsitektur**
+- `src/paperkit/` — pustaka murni (tanpa React): `prng.ts` (mulberry32 seeded, hash ID→seed), `noise.ts` (value-noise 1D/2D berlapis), `jitter.ts` (path gunting 5–9 titik goyang), `deckle.ts`, `texture.ts` (ubin 512 px dari SVG feTurbulence → sharp), `torn.ts` (generateSeededNoise, generateTornPath, generateTornMaskSvg, createTornEdgeStyle), `shadow.ts`.
+- `src/assets-def/` — satu berkas per grup (`doll.ts, ch0.ts, ch1.ts, … overlay.ts, ui.ts, strips.ts, map.ts, kit.ts`) berisi definisi deklaratif per ID manifest: `{ id, file, folder, hd:[w,h], angle, layers:[{shape,fill,tone}], details, seed }`. Ukuran memakai satuan **Hd** (1 Hd = tinggi doll; 1 Hd = 1.120 px kerja; ekspor 2× = 560 px doll, 1× = 280 px).
+- `src/components/paper/` — `PaperShape, PaperLayer, PaperLabel, PaperTag, PaperBubble, EdgeTab, CutLetters, DeckleEdge, PaperTexture, TornSection` merender definisi yang sama untuk runtime.
+- `scripts/generate-assets.mjs` (dijalankan via `tsx`) — membaca `asset-manifest.csv`, merender SVG tiap definisi ke `public/assets/<folder>/<nama>.svg`, lalu `sharp` → `.webp` (1× dan 2×, transparan, tepi tanpa alpha setengah di kontur bila barang di-hit-test) dengan nama persis manifest. Mendukung `--owner Pxx`, `--id <ID>`, `--only-missing`.
+**Aturan**
+- Nama file persis `asset-manifest.csv`. Baris dengan `reuse_of` → jangan buat file baru, rujuk berkas asal. Baris `kind=css-only` (mis. bayangan doll, kertas sobek) → komponen CSS/SVG runtime, bukan file raster.
+- Doll: enam lapisan (kepala+hijab, torso, lengan kiri, lengan kanan, rok/celana, kaki+sepatu) + opsional (aksesori, prop pegangan, wajah ×6, brad di atas). Pivot putar di brad (bahu ±22°, siku 0–25°, pinggul ±18° tersembunyi, lutut 0–18°, pergelangan ±8°; pose hero bahu s/d 150°, siku s/d 90°). Siklus jalan 6 bingkai 8 fps + naik-turun 2 px. Paper-turn F↔W/B 240 ms (scaleX 1→0,05→1). Ganti kostum 450 ms lewat tab bahu (persegi 1,5% H, 8% lebih gelap). Kostum 1–15 dari tabel PB 5.10 / DV 7; K16 = K13 + filter sepia(0,9) saturate(0,7) brightness(0,97) contrast(0,95); K17 = ikon kepala (32/180/512 px).
+- Barang loker (hit-test alpha) tertutup rapat (celah ≤1 px), barang menempel di rak (tidak melayang), tidak tertimpa/terpotong, label hover tidak tertutup.
+- Setiap aset sebelum `done`: garis/tepi sesuai tingkat T1–T6 · maks tiga nada · tepi kertas 2–3 px + bayangan sesuai lapisan · sudut sesuai kode · hex persis tabel dan tidak sewarna dinding chapter · lulus uji siluet dan satu warna dinding · titik kontak punya slot dan bayangan · brad terlihat dan tidak tertimpa pola (zona 16 px).
+- Jalankan `node scripts/check-coverage.mjs --owner <Pxx> --write` setelah tiap batch; placeholder = belum selesai.
+- Seed: `hash(ID)`; seed robekan tetap 101/202/303/404/505/606. Tidak ada `Math.random()` di render maupun di generator.
