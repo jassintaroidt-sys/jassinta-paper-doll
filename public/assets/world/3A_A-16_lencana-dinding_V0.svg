@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250">
+        <circle cx="125" cy="125" r="105" fill="#FFFDF9" stroke="#1B1017" stroke-width="2" filter="drop-shadow(1px 2px 3px rgba(0,0,0,0.15))"/>
+        <circle cx="125" cy="125" r="95" fill="none" stroke="#066838" stroke-width="2"/>
+        <!-- Ikon Matahari & Biji Kopi -->
+        <circle cx="125" cy="95" r="18" fill="#F0A810"/>
+        <!-- Biji kopi cokelat -->
+        <ellipse cx="125" cy="145" rx="22" ry="16" fill="#5A3A2E"/>
+        <path d="M125,130 Q118,145 125,160" stroke="#FFFDF9" stroke-width="2" fill="none"/>
+      </svg>

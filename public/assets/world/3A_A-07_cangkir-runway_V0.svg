@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800" width="400" height="800">
+        <!-- Layar Ponsel 9:16 Bersandar -->
+        <rect x="70" y="80" width="260" height="480" rx="16" fill="#1B1017" stroke="#1B1017" stroke-width="3" filter="drop-shadow(4px 6px 8px rgba(0,0,0,0.3))"/>
+        <rect x="80" y="90" width="240" height="460" rx="10" fill="#066838"/>
+        <!-- Cangkir Keramik Putih #FFFDF9 di Depan -->
+        <g transform="translate(110, 480)" filter="drop-shadow(2px 4px 5px rgba(0,0,0,0.2))">
+          <ellipse cx="90" cy="180" rx="80" ry="16" fill="#F8F8C8" stroke="#1B1017" stroke-width="2"/>
+          <path d="M30,110 C30,170 150,170 150,110 Z" fill="#FFFDF9" stroke="#1B1017" stroke-width="2"/>
+          <!-- Gagang cangkir -->
+          <path d="M150,120 C175,120 175,155 150,155" fill="none" stroke="#1B1017" stroke-width="4"/>
+          <!-- Kopi di dalam cangkir -->
+          <ellipse cx="90" cy="110" rx="60" ry="12" fill="#5A3A2E"/>
+        </g>
+      </svg>

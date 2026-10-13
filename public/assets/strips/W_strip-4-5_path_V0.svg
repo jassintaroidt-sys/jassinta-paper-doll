@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 150" width="750" height="150">
+        <filter id="ws4p-shadow"><feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="rgba(27,16,23,0.18)"/></filter>
+        <path d="M 40,80 Q 150,20 260,80 T 480,80 T 700,80" fill="none" stroke="#5A3A2E" stroke-width="8" stroke-linecap="round" filter="url(#ws4p-shadow)"/>
+        <path d="M 120,60 C 150,110 210,110 240,60 C 270,10 330,10 360,60" fill="none" stroke="#7A4A32" stroke-width="4" stroke-dasharray="8 4"/>
+      </svg>

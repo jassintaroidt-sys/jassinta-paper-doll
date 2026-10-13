@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+        <rect x="3" y="3" width="114" height="34" rx="17" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.8" filter="drop-shadow(1px 2px 3px rgba(27,16,23,0.15))"/>
+        <text x="60" y="25" font-family="'DM Mono', monospace" font-size="12" font-weight="bold" fill="#1B1017" text-anchor="middle" letter-spacing="1.5">INDEX</text>
+      </svg>

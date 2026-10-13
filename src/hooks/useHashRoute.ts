@@ -29,6 +29,11 @@ export type ChapterRoute =
 export type AppRoute =
   | ''
   | 'plain'
+  | 'dev/style-test'
+  | 'dev/doll'
+  | 'dev/assets'
+  | 'dev/world'
+  | 'dev/trilogy'
   | OverlayRoute
   | ChapterRoute;
 
@@ -39,6 +44,11 @@ export interface ParsedRoute {
   isChapter: boolean;
   isPlain: boolean;
   isHome: boolean;
+  isDevStyleTest?: boolean;
+  isDevDoll?: boolean;
+  isDevAssets?: boolean;
+  isDevWorld?: boolean;
+  isDevTrilogy?: boolean;
   overlayType?: OverlayRoute;
   chapterTarget?: ChapterRoute;
 }
@@ -103,6 +113,66 @@ export function parseHash(hashStr: string): ParsedRoute {
       isChapter: false,
       isPlain: true,
       isHome: false,
+    };
+  }
+
+  if (clean === 'dev/style-test') {
+    return {
+      raw: hashStr,
+      route: 'dev/style-test',
+      isOverlay: false,
+      isChapter: false,
+      isPlain: false,
+      isHome: false,
+      isDevStyleTest: true,
+    };
+  }
+
+  if (clean === 'dev/doll') {
+    return {
+      raw: hashStr,
+      route: 'dev/doll' as AppRoute,
+      isOverlay: false,
+      isChapter: false,
+      isPlain: false,
+      isHome: false,
+      isDevDoll: true,
+    };
+  }
+
+  if (clean === 'dev/assets') {
+    return {
+      raw: hashStr,
+      route: 'dev/assets' as AppRoute,
+      isOverlay: false,
+      isChapter: false,
+      isPlain: false,
+      isHome: false,
+      isDevAssets: true,
+    };
+  }
+
+  if (clean === 'dev/world') {
+    return {
+      raw: hashStr,
+      route: 'dev/world' as AppRoute,
+      isOverlay: false,
+      isChapter: false,
+      isPlain: false,
+      isHome: false,
+      isDevWorld: true,
+    };
+  }
+
+  if (clean === 'dev/trilogy') {
+    return {
+      raw: hashStr,
+      route: 'dev/trilogy' as AppRoute,
+      isOverlay: false,
+      isChapter: false,
+      isPlain: false,
+      isHome: false,
+      isDevTrilogy: true,
     };
   }
 

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+        <g transform="translate(150, 150) rotate(-8) translate(-150, -150)">
+          <!-- Lingkaran Luar Ganda -->
+          <circle cx="150" cy="150" r="120" fill="none" stroke="#E5173F" stroke-width="4"/>
+          <circle cx="150" cy="150" r="108" fill="none" stroke="#E5173F" stroke-width="2" stroke-dasharray="8 4"/>
+          <text x="150" y="125" font-family="'DM Mono', monospace" font-size="20" font-weight="bold" fill="#E5173F" text-anchor="middle" letter-spacing="2">DAY-ONE</text>
+          <text x="150" y="165" font-family="'DM Mono', monospace" font-size="22" font-weight="bold" fill="#E5173F" text-anchor="middle" letter-spacing="3">NUMBERS</text>
+          <text x="150" y="195" font-family="'DM Mono', monospace" font-size="11" fill="#E5173F" text-anchor="middle">★ REAL METRICS ★</text>
+        </g>
+      </svg>

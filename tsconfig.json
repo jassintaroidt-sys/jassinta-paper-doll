@@ -20,5 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "scripts", "vite.config.ts", "vitest.config.ts"]
+  "include": ["src", "scripts", "vite.config.ts", "vitest.config.ts"],
+  "exclude": ["node_modules", "dist", "public", "src/assets-def/doll/traced"]
 }

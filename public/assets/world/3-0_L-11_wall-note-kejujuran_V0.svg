@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+        <rect x="15" y="15" width="770" height="170" rx="12" fill="#FFF8EE" fill-opacity="0.85" stroke="#1B1017" stroke-width="1.8" filter="drop-shadow(2px 3px 5px rgba(27,16,23,0.15))"/>
+        <text x="400" y="85" font-family="'Fraunces', serif" font-size="20" font-style="italic" font-weight="600" fill="#1B1017" text-anchor="middle">“Every number here is real, including the small ones.</text>
+        <text x="400" y="125" font-family="'Fraunces', serif" font-size="20" font-style="italic" font-weight="600" fill="#1B1017" text-anchor="middle">The small ones taught me the most.”</text>
+      </svg>

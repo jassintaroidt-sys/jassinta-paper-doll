@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+        <!-- Washi tape tab pink di pojok kiri atas -->
+        <rect x="15" y="6" width="35" height="14" rx="1" fill="#FFB3D9" opacity="0.85"/>
+        <!-- Badan bubble + ekor -->
+        <path d="M 20,20 L 180,20 Q 190,20 190,30 L 190,90 Q 190,100 180,100 L 60,100 L 40,118 L 45,100 L 20,100 Q 10,100 10,90 L 10,30 Q 10,20 20,20 Z" fill="#FFFDF9" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.15))"/>
+      </svg>

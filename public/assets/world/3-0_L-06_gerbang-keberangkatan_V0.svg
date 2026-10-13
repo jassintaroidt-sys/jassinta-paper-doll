@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1000" width="600" height="1000">
+        <!-- Pilar Kiri & Kanan Krem #F8F8C8 -->
+        <rect x="50" y="240" width="90" height="720" rx="4" fill="#F8F8C8" stroke="#1B1017" stroke-width="2" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.18))"/>
+        <rect x="460" y="240" width="90" height="720" rx="4" fill="#F8F8C8" stroke="#1B1017" stroke-width="2" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.18))"/>
+        <!-- Trim Emas pada pilar -->
+        <rect x="45" y="230" width="100" height="18" fill="#D4A64A" stroke="#1B1017" stroke-width="1.5"/>
+        <rect x="455" y="230" width="100" height="18" fill="#D4A64A" stroke="#1B1017" stroke-width="1.5"/>
+        <rect x="45" y="930" width="100" height="30" fill="#D4A64A" stroke="#1B1017" stroke-width="1.5"/>
+        <rect x="455" y="930" width="100" height="30" fill="#D4A64A" stroke="#1B1017" stroke-width="1.5"/>
+        <!-- Lengkung Gerbang Atas -->
+        <path d="M50,240 C50,60 550,60 550,240 L460,240 C460,130 140,130 140,240 Z" fill="#F8F8C8" stroke="#1B1017" stroke-width="2"/>
+        <path d="M70,230 C70,90 530,90 530,230" fill="none" stroke="#D4A64A" stroke-width="4"/>
+        <!-- Papan Flip DEPARTURES Hijau Tua #04502A -->
+        <g transform="translate(160, 160)">
+          <rect width="280" height="64" rx="4" fill="#04502A" stroke="#D4A64A" stroke-width="2" filter="drop-shadow(0 3px 4px rgba(0,0,0,0.25))"/>
+          <text x="140" y="40" font-family="'DM Mono', monospace" font-size="20" font-weight="bold" fill="#FFFDF9" text-anchor="middle" letter-spacing="4">DEPARTURES</text>
+        </g>
+      </svg>

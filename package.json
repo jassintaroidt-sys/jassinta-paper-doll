@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "check": "tsc --noEmit && eslint . && vitest run && node scripts/check-coverage.mjs",
+    "check": "node --max-old-space-size=4096 ./node_modules/typescript/bin/tsc --noEmit && eslint . && vitest run && node scripts/check-palette.mjs && node scripts/check-coverage.mjs",
     "assets": "tsx scripts/generate-assets.mjs",
     "e2e": "playwright test"
   },

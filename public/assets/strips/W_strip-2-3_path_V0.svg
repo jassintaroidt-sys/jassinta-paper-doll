@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+        <filter id="ws2-shadow"><feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="rgba(27,16,23,0.15)"/></filter>
+        <!-- Kios 1: Tenda Cafe belang krem & hijau -->
+        <g transform="translate(60, 50)" filter="url(#ws2-shadow)">
+          <path d="M 0,40 Q 50,15 100,40 L 90,80 L 10,80 Z" fill="#F8F8C8"/>
+          <path d="M 20,30 Q 35,22 50,30 L 45,80 L 25,80 Z" fill="#066838"/>
+          <path d="M 70,30 Q 85,22 100,40 L 90,80 L 75,80 Z" fill="#066838"/>
+          <rect x="15" y="80" width="70" height="60" fill="#5A3A2E"/>
+        </g>
+        <!-- Kios 2: Klinik dengan salib pink & putih (never red) -->
+        <g transform="translate(240, 40)" filter="url(#ws2-shadow)">
+          <rect x="10" y="30" width="90" height="100" rx="4" fill="#FFD6E8"/>
+          <rect x="45" y="55" width="20" height="50" rx="2" fill="#FFFFFF"/>
+          <rect x="30" y="70" width="50" height="20" rx="2" fill="#FFFFFF"/>
+          <rect x="49" y="59" width="12" height="42" rx="1" fill="#FF8DC7"/>
+          <rect x="34" y="74" width="42" height="12" rx="1" fill="#FF8DC7"/>
+        </g>
+        <!-- Kios 3: Gerbang keberangkatan dengan pesawat kertas kecil bertali -->
+        <g transform="translate(420, 30)" filter="url(#ws2-shadow)">
+          <rect x="20" y="40" width="80" height="90" rx="3" fill="#A7D8F5"/>
+          <path d="M 30,50 L 90,50 L 60,10 Z" fill="#8EC2DF"/>
+          <!-- Pesawat kertas kecil bertali -->
+          <line x1="60" y1="10" x2="60" y2="-15" stroke="#D9B98C" stroke-width="1.5" stroke-dasharray="3 2"/>
+          <polygon points="60,-15 45,-30 75,-30" fill="#FFFDF9"/>
+        </g>
+      </svg>

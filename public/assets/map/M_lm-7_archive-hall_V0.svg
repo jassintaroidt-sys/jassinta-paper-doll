@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+        <filter id="lm-sh-M_lm-7_archive-hall"><feDropShadow dx="1.5" dy="3" stdDeviation="2" flood-color="rgba(27,16,23,0.15)"/></filter>
+        <rect x="15" y="15" width="130" height="130" rx="10" fill="#D9D3D6" filter="url(#lm-sh-M_lm-7_archive-hall)"/>
+        <rect x="25" y="25" width="110" height="110" rx="6" fill="#FFFDF9" opacity="0.6"/>
+        <circle cx="80" cy="80" r="28" fill="#D9D3D6"/>
+        <text x="80" y="86" font-family="monospace" font-size="14" font-weight="bold" fill="#1B1017" text-anchor="middle">7_archive-hall</text>
+      </svg>

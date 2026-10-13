@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" width="200" height="80">
+        <g transform="rotate(3 100 40)">
+          <line x1="20" y1="40" x2="0" y2="35" stroke="#D9B98C" stroke-width="2.5"/>
+          <polygon points="30,40 45,15 185,15 185,65 45,65" fill="#FFFDF9" filter="drop-shadow(2px 3px 3px rgba(27,16,23,0.16))"/>
+          <circle cx="36" cy="40" r="3.5" fill="#D9B98C"/>
+          <line x1="55" y1="20" x2="175" y2="20" stroke="#E5173F" stroke-width="1" stroke-dasharray="4 3"/>
+          <line x1="55" y1="60" x2="175" y2="60" stroke="#E5173F" stroke-width="1" stroke-dasharray="4 3"/>
+        </g>
+      </svg>

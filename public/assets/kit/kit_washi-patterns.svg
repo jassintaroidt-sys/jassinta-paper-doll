@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <pattern id="washiDot" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="3" fill="#FF8DC7" fill-opacity="0.4"/>
+    </pattern>
+    <pattern id="washiStripe" width="16" height="16" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#BFA8E5" stroke-width="4" stroke-opacity="0.45"/>
+    </pattern>
+    <pattern id="washiGrid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" stroke="#A8E6CF" stroke-width="1" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+  <g transform="translate(10, 10) rotate(-3)">
+    <rect width="110" height="28" fill="#FFFDF9" fill-opacity="0.85" rx="1"/>
+    <rect width="110" height="28" fill="url(#washiDot)" rx="1"/>
+    <path d="M 0 0 L 3 7 L 0 14 L 3 21 L 0 28" fill="none" stroke="#FF8DC7" stroke-width="1.2"/>
+    <path d="M 110 0 L 107 7 L 110 14 L 107 21 L 110 28" fill="none" stroke="#FF8DC7" stroke-width="1.2"/>
+  </g>
+  <g transform="translate(140, 15) rotate(4)">
+    <rect width="110" height="28" fill="#FFFDF9" fill-opacity="0.85" rx="1"/>
+    <rect width="110" height="28" fill="url(#washiStripe)" rx="1"/>
+    <path d="M 0 0 L 3 7 L 0 14 L 3 21 L 0 28" fill="none" stroke="#BFA8E5" stroke-width="1.2"/>
+    <path d="M 110 0 L 107 7 L 110 14 L 107 21 L 110 28" fill="none" stroke="#BFA8E5" stroke-width="1.2"/>
+  </g>
+  <g transform="translate(270, 10) rotate(-2)">
+    <rect width="110" height="28" fill="#FFFDF9" fill-opacity="0.85" rx="1"/>
+    <rect width="110" height="28" fill="url(#washiGrid)" rx="1"/>
+    <path d="M 0 0 L 3 7 L 0 14 L 3 21 L 0 28" fill="none" stroke="#A8E6CF" stroke-width="1.2"/>
+    <path d="M 110 0 L 107 7 L 110 14 L 107 21 L 110 28" fill="none" stroke="#A8E6CF" stroke-width="1.2"/>
+  </g>
+</svg>

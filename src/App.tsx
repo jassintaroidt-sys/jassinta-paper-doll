@@ -1,5 +1,12 @@
 import { COMPANIES } from './data/companies';
 import { WORKS } from './data/works';
+import { useHashRoute } from './hooks/useHashRoute';
+import { StyleTestPage } from './chapters/StyleTestPage';
+import { DollDevPage } from './chapters/DollDevPage';
+import { AssetsDevPage } from './chapters/AssetsDevPage';
+import { WorldDevPage } from './chapters/WorldDevPage';
+import { CreatorTrilogyDevPage } from './chapters/CreatorTrilogyDevPage';
+import { WorldJourney } from './components/world/WorldJourney';
 
 // TokenDevPage: halaman verifikasi token dan data P01
 // Ditampilkan di dev saja sebagai konfirmasi fondasi siap
@@ -257,5 +264,67 @@ function TokenDevPage() {
 }
 
 export default function App() {
-  return <TokenDevPage />;
+  const { current } = useHashRoute();
+
+  if (current.route === 'dev/style-test' || current.isDevStyleTest) {
+    return <StyleTestPage />;
+  }
+
+  if (current.route === 'dev/doll' || current.isDevDoll) {
+    return <DollDevPage />;
+  }
+
+  if (current.route === 'dev/assets' || current.isDevAssets) {
+    return <AssetsDevPage />;
+  }
+
+  if (current.route === 'dev/world' || current.isDevWorld) {
+    return <WorldDevPage />;
+  }
+
+  if (current.route === 'dev/trilogy' || current.isDevTrilogy) {
+    return <CreatorTrilogyDevPage />;
+  }
+
+  // Rute utama: WorldJourney (Opening → Contact)
+  if (current.isHome) {
+    return <WorldJourney />;
+  }
+
+  // Fallback: portal dev
+  return (
+    <div>
+      <div className="bg-pink-100 p-2 text-center text-xs font-mono border-b border-pink-200 flex justify-center gap-4 flex-wrap">
+        <span>
+          Style Test P02:{' '}
+          <a href="#/dev/style-test" className="font-bold underline text-pink-700">
+            #/dev/style-test
+          </a>
+        </span>
+        <span>·</span>
+        <span>
+          Doll Rig P03:{' '}
+          <a href="#/dev/doll" className="font-bold underline text-pink-700">
+            #/dev/doll
+          </a>
+        </span>
+        <span>·</span>
+        <span>
+          Assets Dev P04:{' '}
+          <a href="#/dev/assets" className="font-bold underline text-pink-700">
+            #/dev/assets
+          </a>
+        </span>
+        <span>·</span>
+        <span>
+          World Dev P05:{' '}
+          <a href="#/dev/world" className="font-bold underline text-pink-700">
+            #/dev/world
+          </a>
+        </span>
+      </div>
+      <TokenDevPage />
+    </div>
+  );
 }
+

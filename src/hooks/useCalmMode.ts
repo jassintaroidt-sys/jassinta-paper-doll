@@ -3,7 +3,12 @@ import { useReducedMotion } from './useReducedMotion';
 
 const CALM_MODE_STORAGE_KEY = 'jassinta_calm_mode';
 
-export function useCalmMode(): [boolean, () => void] {
+export type CalmModeReturn = [boolean, () => void] & {
+  isCalm: boolean;
+  toggleCalm: () => void;
+};
+
+export function useCalmMode(): CalmModeReturn {
   const prefersReduced = useReducedMotion();
   const [isCalm, setIsCalm] = useState<boolean>(() => {
     if (typeof window === 'undefined') return false;
@@ -39,5 +44,11 @@ export function useCalmMode(): [boolean, () => void] {
     });
   }, []);
 
-  return [isCalm, toggleCalm];
+  const result = [isCalm, toggleCalm] as [boolean, () => void] & {
+    isCalm: boolean;
+    toggleCalm: () => void;
+  };
+  result.isCalm = isCalm;
+  result.toggleCalm = toggleCalm;
+  return result;
 }

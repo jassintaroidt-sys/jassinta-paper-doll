@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 450" width="150" height="450">
+        <filter id="ws5-shadow"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="rgba(27,16,23,0.20)"/></filter>
+        <g filter="url(#ws5-shadow)">
+          <line x1="75" y1="40" x2="30" y2="420" stroke="#7A2E5C" stroke-width="4.5"/>
+          <line x1="75" y1="40" x2="120" y2="420" stroke="#7A2E5C" stroke-width="4.5"/>
+          <line x1="45" y1="140" x2="105" y2="140" stroke="#7A2E5C" stroke-width="3"/>
+          <line x1="38" y1="240" x2="112" y2="240" stroke="#7A2E5C" stroke-width="3"/>
+          <line x1="32" y1="340" x2="118" y2="340" stroke="#7A2E5C" stroke-width="3"/>
+          <circle cx="75" cy="35" r="10" fill="#E5173F"/>
+          <circle cx="75" cy="35" r="18" fill="#E5173F" opacity="0.35"/>
+        </g>
+      </svg>

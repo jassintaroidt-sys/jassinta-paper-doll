@@ -5,7 +5,10 @@
 
 export function mediaUrl(path: string): string {
   const base = (import.meta.env.VITE_MEDIA_BASE_URL || '').replace(/\/+$/, '');
-  const cleanPath = path.replace(/^\/+/, '');
+  let cleanPath = path.replace(/^\/+/, '');
+  if (cleanPath.startsWith('assets/')) {
+    cleanPath = cleanPath.replace(/^assets\//, '');
+  }
   return `${base}/assets/${cleanPath}`;
 }
 

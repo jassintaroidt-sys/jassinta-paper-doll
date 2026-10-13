@@ -12,7 +12,7 @@ Seluruh keputusan ada di `docs/portfolio-bible.md` (±500 KB, JANGAN diedit, JAN
 1. **Tidak ada yang boleh tertinggal.** Tiap judul bagian bible (381) ada di `docs/03-coverage-matrix.csv`; tiap berkas aset (355) ada di `asset-manifest.csv`. Tandai `done` hanya dengan bukti (path file, screenshot, hasil tes).
 2. **Paper Cut-Out**: tanpa kertas bergaris, garis margin, kontur tinta hitam, sticky note, tulisan tangan di dinding. Semua dinding/lantai/benda/huruf/kartu = potongan kertas handmade berlapis (serat + bintik + tepi deckle/gunting, tebal 3 px, cahaya kiri-atas, 3 kedalaman bayangan via `filter: drop-shadow`).
 3. **Chapter 1 putih murni** `#FFFFFF`: tanpa lantai, skyline, grain pada kanvas (grain hanya pada lembar dokumen).
-4. Doll **selalu berhijab**, **sepatu selalu hitam**, brad selalu terlihat, **selalu berjalan** (tidak naik kendaraan; kendaraan hanya ambient).
+4. Doll **mirip 55 aset pemilik** (Rule 40), **selalu berhijab**, **sepatu selalu hitam**, brad selalu terlihat, **selalu berjalan** (tidak naik kendaraan; kendaraan hanya ambient).
 5. **TornEdge hanya 6**: seed 101, 202, 303, 404, 505, 606; deterministik, tanpa `Math.random()` saat render, tanpa `clip-path`/zig-zag, bayangan via `drop-shadow` di wrapper luar.
 6. **Opsi A**: 2.5D di DOM dengan CSS 3D. Tanpa WebGL. Loker dibuat ulang dengan CSS 3D berlapis; **dilarang menempel** gambar `loker_*.png`, `envelope.png`, dst.
 7. Scroll lewat **Lenis**; tanpa scroll-snap global; `html, body { overflow-x: clip }`; `data-lenis-prevent` pada area scroll bersarang; Opening terkunci sampai OPEN.
@@ -26,7 +26,7 @@ Seluruh keputusan ada di `docs/portfolio-bible.md` (±500 KB, JANGAN diedit, JAN
 15. Dilarang meniru karakter/komposisi/aset situs referensi Mr. Panda (aturan orisinalitas).
 
 ## Aset dibuat dengan kode
-55 aset doll buatan pemilik **hanya referensi**. Semua aset akhir dibuat dari definisi deklaratif di `src/assets-def/` dengan `src/paperkit/` (PRNG seeded, jitter path, deckle, tekstur) dan diekspor oleh `scripts/generate-assets.mjs` ke `public/assets/{doll,world,ui,strips,map,kit}/` (SVG + WebP via sharp). Komponen runtime memakai definisi yang sama. `scripts/make-placeholders.mjs` hanya untuk menjaga build; placeholder (`data-placeholder="true"`) tidak dihitung selesai.
+55 aset doll buatan pemilik adalah **acuan bentuk wajib ditiru** (`reference/doll-55/`; aturan di `.agents/rules/40-doll-fidelity.md` dan `docs/07-doll-fidelity.md`): geometrinya boleh ditelusuri dengan kode, rasternya tidak disalin, dan gerbang `scripts/compare-doll.mjs --strict` harus hijau. Semua aset akhir dibuat dari definisi deklaratif di `src/assets-def/` dengan `src/paperkit/` (PRNG seeded, jitter path, deckle, tekstur) dan diekspor oleh `scripts/generate-assets.mjs` ke `public/assets/{doll,world,ui,strips,map,kit}/` (SVG + WebP via sharp). Komponen runtime memakai definisi yang sama. `scripts/make-placeholders.mjs` hanya untuk menjaga build; placeholder (`data-placeholder="true"`) tidak dihitung selesai.
 
 ## Stack
 Vite + React 18 + TypeScript (strict) + Tailwind 3 (warna dari token) + Lenis + Vitest + Playwright (+ axe). Router hash buatan sendiri (`src/hooks/useHashRoute.ts`). Font self-host di `public/fonts` (Fraunces: dua instance statis). Hosting Vercel (`vercel.json` rewrite `/plain`). Analitik Plausible (tanpa cookie).

@@ -37,10 +37,13 @@ Cara pakai: salin **satu prompt per sesi agent** ke panel agent (Cmd/Ctrl+L) ata
 2. Komponen: `PaperTexture, PaperShape, DeckleEdge, PaperLayer, PaperLabel, PaperTag, PaperBubble, EdgeTab, CutLetters, Pushpin, StickerButton, HoverLabel (juga saat fokus), PhotoFrame (tidak pernah memotong foto), PaperNote, Overlay (focus trap, Esc, fokus kembali), Carousel`. Preset bahan: handmade, cotton-white, newsprint, aged, dark, tissue, marbled, flocked, kraft.
 3. `TornSection` + `generateSeededNoise/generateTornPath/generateTornMaskSvg/createTornEdgeStyle` (11.1 sampai 11.11): mask SVG programatik, tiga lapis noise seeded, serat sisa, highlight tidak menerus, wrapper `drop-shadow`, tinggi `clamp(36px, 6vw, 90px)`, overscan lebar, memoize, `pointer-events:none`, tanpa animasi kontur; reduced motion/Calm → crossfade 250 ms. Seed 101, 202, 303, 404, 505, 606 saja. Tes: seed sama = path sama, tidak ada `Math.random`.
 4. **Style Test** di `#/dev/style-test`: (a) adegan 3A (dinding hijau #066838 + serat tone-on-tone + chair rail krem + lantai kayu cocoa + 3 props), (b) satu bay Newsroom Independen merah #E80838, (c) doll placeholder terbaca di tiga warna dinding, (d) satu PaperLabel, satu PaperTag, satu CutLetters, satu headline dua gaya, (e) satu TornEdge di bawah (a), (f) uji 3 detik, siluet, satu warna, kontras.
-**Gerbang**: screenshot Style Test di 360/768/1440 px; **pemilik menyetujui tampilan** ("kamu merasa ini dia"); serat dan bintik terlihat di 100%; tidak ada garis buku tulis; Lighthouse irisan ini ≥70.
+**Gerbang**: screenshot Style Test di 360/768/1440 px; **pemilik menyetujui tampilan** ("kamu merasa ini dia"); serat dan bintik terlihat di 100%; tidak ada garis buku tulis; Lighthouse irisan ini ≥70. **Doll di Style Test harus hasil P02b (mirip referensi), bukan placeholder**; lanjutkan ke P02b sebelum meminta persetujuan.
+
+## P02b · Doll pertama mirip referensi (prototipe kemiripan)
+Isi lengkap prompt ada di `docs/07-doll-fidelity.md` bagian 5. Hasil: `scripts/trace-reference.mjs`, satu doll (`doll_01_seragam_F_wave`) menggantikan placeholder di Style Test, dan `compare-doll.mjs --only doll_01_seragam_F_wave --strict` hijau.
 
 ## P03 · Doll rig (karakter, wajah, brad, 15 kostum, pose)
-**Baca**: DF 7, DV 4, 5, 6, 7 (katalog kostum K1 sampai K17), PB 5.10, `docs/prompts-aset.md` bagian 1 dan 2. Gambar master hanya referensi bentuk.
+**Baca**: `.agents/rules/40-doll-fidelity.md`, `docs/07-doll-fidelity.md`, DF 7, DV 4, 5, 6, 7 (katalog kostum K1 sampai K17), PB 5.10, `docs/prompts-aset.md` bagian 1 dan 2. **Buka dengan alat lihat gambar** semua berkas di `reference/doll-55/` sebelum menulis kode.
 **Kerjakan** (manifest `owner_prompt=P03`, 56 berkas):
 1. Definisi deklaratif doll: proporsi H=560 px (dagu 18%, bahu 24%, siku 39%, tangan 52%, pinggul 54%, lutut 73%, pergelangan 92%, telapak 100%), warna tubuh (kulit #E8B795, blush #E9A39B 60%, alis #3A2A24, hidung #D49A7B, mulut #B5645F, sepatu #2E2E2E, brad #BDBDBD cincin #8A8A8A), wajah kisi 4.3, empat gaya hijab, lima bentuk tangan, sepuluh brad (siku dan lutut cincin lebih besar).
 2. Turnaround F, W, B (`doll_00_master_*`), 6 ekspresi × F dan W (`face_*`), 5 brad SVG, wajah dari potongan kertas kecil (titik mata, sabit kelopak, lingkaran blush, sabit senyum; tanpa kontur tinta).
@@ -48,7 +51,7 @@ Cara pakai: salin **satu prompt per sesi agent** ke panel agent (Cmd/Ctrl+L) ata
 4. Matriks 31 kombinasi + 3 tampak belakang (walk = 6 bingkai 8 fps), pose idle/point/hold/hold-1/reach/jump/wave/peek/lift/nod dengan sudut sendi 6.2, siklus jalan 6.3.
 5. Komponen `Doll` (props: kostum, pose, tampak, ekspresi): paper-turn 240 ms, ganti kostum 450 ms (tab bahu), bayangan elips (mengecil 70% saat lompat), `SpeechBubble` (aturan 7.5, 18 gelembung + extra), semua reaksi 7.4, mode Calm hanya ganti pose.
 6. Halaman `#/dev/doll`: matriks semua kostum × pose × tampak, slider sudut sendi, uji kontras kostum vs dunia (DV 7.1).
-**Gerbang**: 56 berkas manifest `done` (bukan placeholder); halaman uji menampilkan 31 + 3 kombinasi tanpa celah/overlap pola di zona brand 16 px; sepatu hitam di semua; hijab di semua; pemilik membandingkan dengan master dan menyetujui.
+**Gerbang**: 56 berkas manifest `done` (bukan placeholder); **`node scripts/compare-doll.mjs --strict` hijau untuk semua pasangan referensi** (IoU ≥ 0,93, ΔE ≤ 7, rasio ≤ 4%); sheet pembanding `docs/evidence/doll-compare/sheet-*.png` (±4 gambar) disetujui pemilik; halaman uji menampilkan 31 + 3 kombinasi tanpa celah/overlap pola di zona brand 16 px; sepatu hitam dan hijab di semua.
 
 ## P04 · Pabrik aset (generator dan kontak sheet)
 **Baca**: `.agents/rules/30-assets-by-code.md`, DV 2 sampai 3 dan 10, `docs/prompts-aset.md` bagian 0 dan 5, `asset-manifest.csv`.

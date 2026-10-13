@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+        <!-- Tali gantungan -->
+        <path d="M140,160 C140,80 260,80 260,160" fill="none" stroke="#7A4A32" stroke-width="4" stroke-linecap="round"/>
+        <!-- Badan Kantong Paper Bag Krem #F8F8C8 -->
+        <polygon points="80,160 320,160 300,440 100,440" fill="#F8F8C8" stroke="#1B1017" stroke-width="2.5" filter="drop-shadow(3px 4px 6px rgba(0,0,0,0.2))"/>
+        <!-- Strip Hijau #066838 -->
+        <polygon points="85,270 315,270 310,330 90,330" fill="#066838"/>
+        <text x="200" y="310" font-family="'DM Mono', monospace" font-size="16" font-weight="bold" fill="#F8F8C8" text-anchor="middle">DELIVERY</text>
+      </svg>

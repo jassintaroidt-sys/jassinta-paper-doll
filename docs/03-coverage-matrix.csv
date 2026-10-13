@@ -93,43 +93,43 @@ no,baris_bible,level,judul_bagian,prompt,target_implementasi,status,bukti_verifi
 92,1480,3,28.4 Penerapan per chapter (DF),"P01,P08,P09,P10,P11",Warna brand: src/tokens/brand.css dan tema per chapter,todo,
 93,1501,3,28.5 Catatan aset logo (DF),"P01,P08,P09,P10,P11",Warna brand: src/tokens/brand.css dan tema per chapter,todo,
 94,1511,3,28.6 Dampak ke produksi (DF),"P01,P08,P09,P10,P11",Warna brand: src/tokens/brand.css dan tema per chapter,todo,
-95,1515,2,6. Paper World Bible (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-96,1519,3,6.1 Bahasa visual dunia (spesifikasi render) (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-97,1538,3,6.2 Model kamera dan scroll (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-98,1594,3,6.3 World Set tiap chapter (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-99,1613,3,6.4 Peta dunia: Paper Town (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-100,1631,3,6.5 Walk strip: jalan di antara tempat (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-101,1651,3,6.6 Papan nama tempat (label kertas) (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-102,1674,3,6.7 Tiga babak di layar (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-103,1682,3,6.8 HUD: zona layar (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",todo,
-104,1696,2,7. Karakter Doll: Character Bible (DF),P03,Character Bible: src/components/doll/*,todo,
-105,1698,3,7.1 Character sheet (DF),P03,Character Bible: src/components/doll/*,todo,
-106,1712,3,7.2 Inventaris kostum (15 kostum) (DF),P03,Character Bible: src/components/doll/*,todo,
-107,1734,3,7.3 Matriks pose (hanya yang dipakai) (DF),P03,Character Bible: src/components/doll/*,todo,
-108,1757,3,7.4 Reaksi doll (DF),P03,Character Bible: src/components/doll/*,todo,
-109,1772,3,7.5 Gelembung ucapan (doll berbicara) (DF),P03,Character Bible: src/components/doll/*,todo,
-110,1799,2,4. Master Doll: Jassinta (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-111,1801,3,4.1 Proporsi dan posisi sendi (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-112,1829,3,4.2 Warna tubuh (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-113,1845,3,4.3 Wajah: kisi penempatan (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-114,1857,3,4.4 Hijab (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-115,1874,3,4.5 Tangan (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-116,1888,3,4.6 Kaki dan sepatu (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-117,1898,3,4.7 Brad (paku lipat) (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-118,1902,3,4.8 Tab lipat (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-119,1906,3,4.9 Turnaround: tiga tampak (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-120,1916,3,4.10 Struktur lapisan (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-121,1922,3,4.11 Bayangan doll (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-122,1926,2,5. Enam Ekspresi (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-123,1941,2,6. Pose dan Sudut Sendi (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-124,1943,3,6.1 Aturan sudut (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-125,1953,3,6.2 Tabel pose (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-126,1968,3,"6.3 Siklus jalan (W), enam bingkai, 8 fps (DV)",P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-127,1983,3,"6.4 Matriks gambar (31 kombinasi dari Portfolio Bible, ditambah 3 tampak belakang) (DV)",P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-128,2005,2,7. Katalog Kostum (17) (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-129,2009,3,K16. Varian sepia (strip 4 ke 5)  (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-130,2013,3,"K17. Ikon kepala (favicon, OG, peta)  (DV)",P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
-131,2017,3,7.1 Cek kontras kostum terhadap dunia (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",todo,
+95,1515,2,6. Paper World Bible (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"src/components/world/*; src/components/hud/*; src/__tests__/world.test.ts; docs/evidence/P05/p05-world-1440px.png"
+96,1519,3,6.1 Bahasa visual dunia (spesifikasi render) (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"src/components/world/Scene.tsx; src/components/paper/DeckleEdge.tsx; src/components/paper/TornSection.tsx; docs/evidence/P05/p05-world-1440px.png"
+97,1538,3,6.2 Model kamera dan scroll (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"src/components/world/WorldLayer.tsx; src/components/world/LenisProvider.tsx; src/components/world/worldData.ts; src/__tests__/world.test.ts"
+98,1594,3,6.3 World Set tiap chapter (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"src/components/world/worldData.ts; src/components/world/Scene.tsx; src/__tests__/world.test.ts; docs/evidence/P05/p05-world-stage-1440px.png"
+99,1613,3,6.4 Peta dunia: Paper Town (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"public/assets/map/M_map-town_full_1200.webp; public/assets/map/M_town-*.webp; src/components/world/worldData.ts"
+100,1631,3,6.5 Walk strip: jalan di antara tempat (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"src/components/world/WalkStrip.tsx; src/components/world/worldData.ts; public/assets/strips/W_strip-*.webp; docs/evidence/P05/p05-world-stage-1440px.png"
+101,1651,3,6.6 Papan nama tempat (label kertas) (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"public/assets/world/S_label-ch*.webp; src/components/world/worldData.ts; src/components/world/Scene.tsx; docs/evidence/P05/p05-world-1440px.png"
+102,1674,3,6.7 Tiga babak di layar (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"src/components/hud/HUD.tsx; src/components/world/WorldContext.tsx; src/components/world/worldData.ts; src/__tests__/world.test.ts"
+103,1682,3,6.8 HUD: zona layar (DF),P05,"Paper World: src/components/world/*, camera modes, World Set",done,"src/components/hud/HUD.tsx; src/components/hud/Preloader.tsx; src/components/hud/GlobalFooter.tsx; src/components/hud/EdgeTab.tsx; docs/evidence/P05/p05-world-1440px.png"
+104,1696,2,7. Karakter Doll: Character Bible (DF),P03,Character Bible: src/components/doll/*,done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+105,1698,3,7.1 Character sheet (DF),P03,Character Bible: src/components/doll/*,done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+106,1712,3,7.2 Inventaris kostum (15 kostum) (DF),P03,Character Bible: src/components/doll/*,done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+107,1734,3,7.3 Matriks pose (hanya yang dipakai) (DF),P03,Character Bible: src/components/doll/*,done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+108,1757,3,7.4 Reaksi doll (DF),P03,Character Bible: src/components/doll/*,done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+109,1772,3,7.5 Gelembung ucapan (doll berbicara) (DF),P03,Character Bible: src/components/doll/*,done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+110,1799,2,4. Master Doll: Jassinta (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+111,1801,3,4.1 Proporsi dan posisi sendi (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+112,1829,3,4.2 Warna tubuh (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+113,1845,3,4.3 Wajah: kisi penempatan (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+114,1857,3,4.4 Hijab (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+115,1874,3,4.5 Tangan (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+116,1888,3,4.6 Kaki dan sepatu (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+117,1898,3,4.7 Brad (paku lipat) (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+118,1902,3,4.8 Tab lipat (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+119,1906,3,4.9 Turnaround: tiga tampak (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+120,1916,3,4.10 Struktur lapisan (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+121,1922,3,4.11 Bayangan doll (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+122,1926,2,5. Enam Ekspresi (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+123,1941,2,6. Pose dan Sudut Sendi (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+124,1943,3,6.1 Aturan sudut (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+125,1953,3,6.2 Tabel pose (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+126,1968,3,"6.3 Siklus jalan (W), enam bingkai, 8 fps (DV)",P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+127,1983,3,"6.4 Matriks gambar (31 kombinasi dari Portfolio Bible, ditambah 3 tampak belakang) (DV)",P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+128,2005,2,7. Katalog Kostum (17) (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+129,2009,3,K16. Varian sepia (strip 4 ke 5)  (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+130,2013,3,"K17. Ikon kepala (favicon, OG, peta)  (DV)",P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
+131,2017,3,7.1 Cek kontras kostum terhadap dunia (DV),P03,"Master doll, ekspresi, pose, kostum: src/components/doll/*, doll rig",done,docs/evidence/doll-compare/sheet-01..04.png; src/components/Doll.tsx; src/chapters/DollDevPage.tsx; src/__tests__/doll.test.ts
 132,2032,2,8. Lapisan Hidup: Ambient dan Easter Egg (DF),P17,"Ambient dan easter egg: src/components/ambient/*, src/components/eggs/*",todo,
 133,2034,3,8.1 Ambient loop per chapter (dibuat di semua 12 adegan) (DF),P17,"Ambient dan easter egg: src/components/ambient/*, src/components/eggs/*",todo,
 134,2055,3,8.2 Easter egg (lima yang dibuat) (DF),P17,"Ambient dan easter egg: src/components/ambient/*, src/components/eggs/*",todo,
@@ -142,18 +142,18 @@ no,baris_bible,level,judul_bagian,prompt,target_implementasi,status,bukti_verifi
 141,2117,3,10.5 Preloader (DF),"P05,P16","Aturan global: ToC, hash route, scroll-lock, preloader, footer, token gerak",todo,
 142,2121,3,10.6 Footer layar penuh (DF),"P05,P16","Aturan global: ToC, hash route, scroll-lock, preloader, footer, token gerak",todo,
 143,2125,3,10.7 Token gerak (DF),"P05,P16","Aturan global: ToC, hash route, scroll-lock, preloader, footer, token gerak",todo,
-144,2141,2,11. TornEdge: Transisi Kertas Sobek yang Realistis (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-145,2145,3,11.1 Aturan inti (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-146,2155,3,11.2 Struktur DOM (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-147,2164,3,11.3 Masking (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-148,2170,3,11.4 Bentuk robekan yang realistis (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-149,2182,3,"11.5 Seed, ukuran, dan lebar (DF)",P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-150,2199,3,"11.6 Ketebalan, serat, dan detail fisik (DF)",P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-151,2213,3,11.7 Bayangan (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-152,2217,3,11.8 Kontinuitas background dan urutan tumpukan (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-153,2223,3,"11.9 Performa, responsif, aksesibilitas (DF)",P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-154,2233,3,11.10 Section yang memakai TornEdge (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
-155,2237,3,11.11 Implementasi React (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",todo,
+144,2141,2,11. TornEdge: Transisi Kertas Sobek yang Realistis (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+145,2145,3,11.1 Aturan inti (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+146,2155,3,11.2 Struktur DOM (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+147,2164,3,11.3 Masking (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+148,2170,3,11.4 Bentuk robekan yang realistis (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+149,2182,3,"11.5 Seed, ukuran, dan lebar (DF)",P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+150,2199,3,"11.6 Ketebalan, serat, dan detail fisik (DF)",P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+151,2213,3,11.7 Bayangan (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+152,2217,3,11.8 Kontinuitas background dan urutan tumpukan (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+153,2223,3,"11.9 Performa, responsif, aksesibilitas (DF)",P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+154,2233,3,11.10 Section yang memakai TornEdge (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
+155,2237,3,11.11 Implementasi React (DF),P02,"TornEdge: src/components/paper/TornSection.tsx, src/lib/torn.ts",done,"src/paperkit/torn.ts, src/components/paper/TornSection.tsx, src/__tests__/paperkit.test.ts, docs/evidence/P02/"
 156,2243,2,"12. Responsif, Performa, Aksesibilitas, Media (DF)","P01,P18","Responsif, performa, a11y, media helper: src/lib/media.ts, hooks/*",todo,
 157,2245,3,12.1 Breakpoint (DF),"P01,P18","Responsif, performa, a11y, media helper: src/lib/media.ts, hooks/*",todo,
 158,2257,3,12.2 Aturan wajib (DF),"P01,P18","Responsif, performa, a11y, media helper: src/lib/media.ts, hooks/*",todo,
@@ -219,17 +219,17 @@ no,baris_bible,level,judul_bagian,prompt,target_implementasi,status,bukti_verifi
 218,3030,3,28.7.4 Frame tambahan Chapter 2 (DF),P08,Chapter 2: src/chapters/Newsroom/*,todo,
 219,3041,3,8.3 Chapter 2: The Newsroom (DV),P08,Chapter 2: src/chapters/Newsroom/*,todo,
 220,3071,3,K3. Rompi reporter (Chapter 2) (DV),P08,Chapter 2: src/chapters/Newsroom/*,todo,
-221,3087,2,Chapter 3: The Creator Trilogy (Content Marketing Specialist),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby*,todo,
-222,3089,3,16. Chapter 3: The Creator Trilogy (Content Marketing Specialist) (DF),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby*,todo,
-223,3099,4,"16.1 Runway standar (berlaku di 3A, 3B, 3C) (DF)",P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby*,todo,
-224,3125,3,Chapter 3.0: The Creator Lobby,P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby*,todo,
-225,3127,4,16.2 Lobi (3.0) (DF),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby*,todo,
-226,3140,4,8.4 Chapter 3.0: The Creator Lobby (DV),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby*,todo,
-227,3156,4,K4. Kardigan lobi (3.0) (DV),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby*,todo,
-228,3170,3,Chapter 3A: The Café (Elspresso),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe*,todo,
-229,3172,4,16.3 3A The Café: Elspresso (DF),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe*,todo,
-230,3193,4,8.5 Chapter 3A: The Café (Elspresso) (DV),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe*,todo,
-231,3218,4,K5. Barista (3A) (DV),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe*,todo,
+221,3087,2,Chapter 3: The Creator Trilogy (Content Marketing Specialist),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/*,done,"src/chapters/CreatorTrilogy/*; src/__tests__/trilogy-p09.test.ts; docs/evidence/P09/p09-trilogy-1440px.png"
+222,3089,3,16. Chapter 3: The Creator Trilogy (Content Marketing Specialist) (DF),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/*,done,"src/chapters/CreatorTrilogy/Lobby.tsx; src/chapters/CreatorTrilogy/Cafe.tsx; docs/evidence/P09/p09-trilogy-1440px.png"
+223,3099,4,"16.1 Runway standar (berlaku di 3A, 3B, 3C) (DF)",P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Cafe.tsx,done,"src/chapters/CreatorTrilogy/Cafe.tsx; docs/evidence/P09/p09-cafe-1440px.png; src/__tests__/trilogy-p09.test.ts"
+224,3125,3,Chapter 3.0: The Creator Lobby,P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby.tsx,done,"src/chapters/CreatorTrilogy/Lobby.tsx; docs/evidence/P09/p09-trilogy-1440px.png"
+225,3127,4,16.2 Lobi (3.0) (DF),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby.tsx,done,"src/chapters/CreatorTrilogy/Lobby.tsx; public/assets/world/3-0_L-*.webp; docs/evidence/P09/p09-trilogy-1440px.png"
+226,3140,4,8.4 Chapter 3.0: The Creator Lobby (DV),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby.tsx,done,"src/chapters/CreatorTrilogy/Lobby.tsx; public/assets/world/3-0_L-01..11_*.webp; docs/evidence/P09/p09-trilogy-1440px.png"
+227,3156,4,K4. Kardigan lobi (3.0) (DV),P09,Chapter 3 dan 3.0 Lobby: src/chapters/CreatorTrilogy/Lobby.tsx,done,"src/assets-def/doll/costumes.ts; src/components/Doll.tsx; src/__tests__/trilogy-p09.test.ts"
+228,3170,3,Chapter 3A: The Café (Elspresso),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe.tsx,done,"src/chapters/CreatorTrilogy/Cafe.tsx; docs/evidence/P09/p09-cafe-1440px.png"
+229,3172,4,16.3 3A The Café: Elspresso (DF),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe.tsx,done,"src/chapters/CreatorTrilogy/Cafe.tsx; public/assets/world/3A_A-*.webp; docs/evidence/P09/p09-cafe-1440px.png"
+230,3193,4,8.5 Chapter 3A: The Café (Elspresso) (DV),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe.tsx,done,"src/chapters/CreatorTrilogy/Cafe.tsx; public/assets/world/3A_A-01..20_*.webp; docs/evidence/P09/p09-cafe-1440px.png"
+231,3218,4,K5. Barista (3A) (DV),P09,Chapter 3A Cafe: src/chapters/CreatorTrilogy/Cafe.tsx,done,"src/assets-def/doll/costumes.ts; src/components/Doll.tsx; src/__tests__/trilogy-p09.test.ts"
 232,3232,3,Chapter 3B: The Glow Clinic (Elsthetic dan Aishi Beauty),P10,"Chapter 3B, 3C, recap, What I learned: src/chapters/CreatorTrilogy/*",todo,
 233,3234,4,16.4 3B The Glow Clinic: Elsthetic dan Aishi Beauty (DF),P10,"Chapter 3B, 3C, recap, What I learned: src/chapters/CreatorTrilogy/*",todo,
 234,3271,4,8.6 Chapter 3B: The Glow Clinic (Elsthetic dan Aishi Beauty) (DV),P10,"Chapter 3B, 3C, recap, What I learned: src/chapters/CreatorTrilogy/*",todo,
@@ -325,49 +325,49 @@ no,baris_bible,level,judul_bagian,prompt,target_implementasi,status,bukti_verifi
 324,4559,2,9. Roadmap Produksi dan Kriteria Selesai (PB),"P01,P04,P18,P19","Konten, URL, SEO, model data, daftar aset, produksi, QA, roadmap",todo,
 325,4574,3,Daftar QA (PB),"P01,P04,P18,P19","Konten, URL, SEO, model data, daftar aset, produksi, QA, roadmap",todo,
 326,4589,3,Prioritas bila waktu terbatas (PB),"P01,P04,P18,P19","Konten, URL, SEO, model data, daftar aset, produksi, QA, roadmap",todo,
-327,4597,1,BAGIAN 7 · PROMPT AI UNTUK SEMUA ASET,P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-328,4603,2,0. Cara Memakai (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-329,4621,3,0.1 Prefix (pilih satu) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-330,4631,3,0.2 Negative prompt (untuk semua) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-331,4635,2,"1. Master Doll, Wajah, dan Brad (PA)",P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-332,4637,3,1.1 Turnaround master (3 tampak) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-333,4645,3,1.2 Wajah (6 ekspresi × tampak F dan W) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-334,4664,3,"1.3 Brad (5 jenis, SVG) (PA)",P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-335,4674,2,2. Kostum (17) dan Pose (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-336,4678,3,K1. Seragam santai (Chapter 0 dan 8) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-337,4688,3,K2. Blazer pink (Chapter 1) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-338,4696,3,K3. Rompi reporter (Chapter 2) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-339,4703,3,K4. Kardigan lobi (3.0) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-340,4711,3,K5. Barista (3A) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-341,4719,3,K6. Jas klinik (3B) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-342,4726,3,K7. Traveling (3C) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-343,4733,3,K8. Butik dasar (Chapter 4) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-344,4740,3,K9 sampai K12. Outfit Chapter 4.7 (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-345,4750,3,K13. Jaket kampus (Chapter 5) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-346,4758,3,K14. Siaran (Chapter 6) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-347,4765,3,K15. Arsip (Chapter 7) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-348,4772,3,K16 dan K17 (varian utilitas) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-349,4779,2,3. Barang per Chapter (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-350,4783,3,3.1 Chapter 0: Loker dan Paper School (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-351,4846,3,3.2 Chapter 1: The Editor's Desk (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-352,4863,3,3.3 Chapter 2: The Newsroom (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-353,4895,3,3.4 Chapter 3.0: Creator Lobby (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-354,4911,3,3.5 Chapter 3A: The Cafe (Elspresso) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-355,4936,3,3.6 Chapter 3B: The Glow Clinic (Elsthetic dan Aishi Beauty) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-356,4959,3,3.7 Chapter 3C: The Terminal (Karamina Tour) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-357,4980,3,3.8 Chapter 4: The Boutique (Lassiewear) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-358,5011,3,3.9 Chapter 5: The Campus Library (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-359,5032,3,3.10 Chapter 6: The Radio Booth (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-360,5051,3,3.11 Chapter 7: The Archive Room (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-361,5068,3,3.12 Chapter 8: The Mailbox (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-362,5084,3,3.13 Overlay suvenir (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-363,5109,2,4. Dunia Bersama (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-364,5111,3,4.1 Dua belas papan nama label kertas (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-365,5132,3,4.2 Walk strip (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-366,5147,3,4.3 Paper Town: peta dan landmark (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-367,5164,3,4.4 HUD dan komponen UI (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-368,5187,3,4.5 Ambient dan partikel (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-369,5198,2,5. Alur Kerja yang Disarankan (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
+327,4597,1,BAGIAN 7 · PROMPT AI UNTUK SEMUA ASET,P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+328,4603,2,0. Cara Memakai (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+329,4621,3,0.1 Prefix (pilih satu) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+330,4631,3,0.2 Negative prompt (untuk semua) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+331,4635,2,"1. Master Doll, Wajah, dan Brad (PA)",P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+332,4637,3,1.1 Turnaround master (3 tampak) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+333,4645,3,1.2 Wajah (6 ekspresi × tampak F dan W) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+334,4664,3,"1.3 Brad (5 jenis, SVG) (PA)",P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+335,4674,2,2. Kostum (17) dan Pose (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+336,4678,3,K1. Seragam santai (Chapter 0 dan 8) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+337,4688,3,K2. Blazer pink (Chapter 1) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+338,4696,3,K3. Rompi reporter (Chapter 2) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+339,4703,3,K4. Kardigan lobi (3.0) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+340,4711,3,K5. Barista (3A) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+341,4719,3,K6. Jas klinik (3B) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+342,4726,3,K7. Traveling (3C) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+343,4733,3,K8. Butik dasar (Chapter 4) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+344,4740,3,K9 sampai K12. Outfit Chapter 4.7 (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+345,4750,3,K13. Jaket kampus (Chapter 5) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+346,4758,3,K14. Siaran (Chapter 6) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+347,4765,3,K15. Arsip (Chapter 7) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+348,4772,3,K16 dan K17 (varian utilitas) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+349,4779,2,3. Barang per Chapter (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+350,4783,3,3.1 Chapter 0: Loker dan Paper School (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+351,4846,3,3.2 Chapter 1: The Editor's Desk (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+352,4863,3,3.3 Chapter 2: The Newsroom (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+353,4895,3,3.4 Chapter 3.0: Creator Lobby (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+354,4911,3,3.5 Chapter 3A: The Cafe (Elspresso) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+355,4936,3,3.6 Chapter 3B: The Glow Clinic (Elsthetic dan Aishi Beauty) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+356,4959,3,3.7 Chapter 3C: The Terminal (Karamina Tour) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+357,4980,3,3.8 Chapter 4: The Boutique (Lassiewear) (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+358,5011,3,3.9 Chapter 5: The Campus Library (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+359,5032,3,3.10 Chapter 6: The Radio Booth (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+360,5051,3,3.11 Chapter 7: The Archive Room (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+361,5068,3,3.12 Chapter 8: The Mailbox (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+362,5084,3,3.13 Overlay suvenir (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+363,5109,2,4. Dunia Bersama (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+364,5111,3,4.1 Dua belas papan nama label kertas (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+365,5132,3,4.2 Walk strip (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+366,5147,3,4.3 Paper Town: peta dan landmark (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+367,5164,3,4.4 HUD dan komponen UI (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+368,5187,3,4.5 Ambient dan partikel (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
+369,5198,2,5. Alur Kerja yang Disarankan (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",done,"src/assets-def/index.ts, scripts/generate-assets.mjs, src/chapters/AssetsDevPage.tsx, src/__tests__/assets.test.ts, scripts/check-palette.mjs, docs/evidence/P04/p04-assets-1440px.png"
 370,5214,1,LAMPIRAN A · RIWAYAT KEPUTUSAN,P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
 371,5218,2,Perubahan Konsep: Dari Kertas Bergaris ke Paper Cut-Out Art (13 Oktober 2026),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
 372,5240,2,3. Hasil Audit (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+        <filter id="ws3-shadow"><feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="rgba(27,16,23,0.15)"/></filter>
+        <!-- Kanopi butik dusty rose -->
+        <g transform="translate(150, 60)" filter="url(#ws3-shadow)">
+          <polygon points="20,40 160,20 180,60 0,80" fill="#E8A5B8"/>
+          <rect x="20" y="80" width="140" height="80" fill="#FFFDF9"/>
+          <circle cx="90" cy="115" r="16" fill="#FFB3D9"/>
+        </g>
+        <!-- Menara radio tinggi dengan lampu merah kelap-kelip -->
+        <g transform="translate(560, 20)" filter="url(#ws3-shadow)">
+          <line x1="40" y1="20" x2="20" y2="180" stroke="#7A2E5C" stroke-width="3.5"/>
+          <line x1="40" y1="20" x2="60" y2="180" stroke="#7A2E5C" stroke-width="3.5"/>
+          <line x1="26" y1="70" x2="54" y2="70" stroke="#7A2E5C" stroke-width="2"/>
+          <line x1="23" y1="120" x2="57" y2="120" stroke="#7A2E5C" stroke-width="2"/>
+          <!-- Lampu merah -->
+          <circle cx="40" cy="18" r="6" fill="#E5173F"/>
+          <circle cx="40" cy="18" r="10" fill="#E5173F" opacity="0.35"/>
+        </g>
+      </svg>

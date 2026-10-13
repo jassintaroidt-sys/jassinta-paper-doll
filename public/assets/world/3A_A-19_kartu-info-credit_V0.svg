@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" width="900" height="700">
+        <rect x="25" y="25" width="850" height="650" rx="14" fill="#FFF8EE" stroke="#1B1017" stroke-width="2" filter="drop-shadow(4px 6px 10px rgba(27,16,23,0.20))"/>
+        <!-- 4 Blok Bersusun -->
+        <g transform="translate(60, 60)">
+          <!-- Blok 1: What I did -->
+          <rect width="780" height="120" rx="8" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.2"/>
+          <text x="24" y="36" font-family="'DM Mono', monospace" font-size="14" font-weight="bold" fill="#066838">01 · WHAT I DID</text>
+          <text x="24" y="70" font-family="'Fraunces', serif" font-size="16" fill="#1B1017">Created and managed culinary video content for Elspresso launch.</text>
+
+          <!-- Blok 2: Result -->
+          <rect y="140" width="780" height="110" rx="8" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.2"/>
+          <text x="24" y="176" font-family="'DM Mono', monospace" font-size="14" font-weight="bold" fill="#FF2E93">02 · RESULT</text>
+          <text x="24" y="210" font-family="'Fraunces', serif" font-size="16" fill="#1B1017">24 Views · 1 Like (Day-one numbers as of launch month)</text>
+
+          <!-- Blok 3: What I learned -->
+          <rect y="270" width="780" height="110" rx="8" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.2"/>
+          <text x="24" y="306" font-family="'DM Mono', monospace" font-size="14" font-weight="bold" fill="#B08418">03 · WHAT I LEARNED</text>
+          <text x="24" y="340" font-family="'Fraunces', serif" font-size="16" fill="#1B1017">A launch needs a reason to care, not just an announcement.</text>
+
+          <!-- Blok 4: Next time -->
+          <rect y="400" width="780" height="110" rx="8" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.2"/>
+          <text x="24" y="436" font-family="'DM Mono', monospace" font-size="14" font-weight="bold" fill="#1B1017">04 · NEXT TIME</text>
+          <text x="24" y="470" font-family="'Fraunces', serif" font-size="16" fill="#1B1017">Build audience anticipation 2 weeks before grand opening.</text>
+        </g>
+      </svg>

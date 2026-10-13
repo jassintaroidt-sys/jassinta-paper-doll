@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" width="350" height="350">
+        <!-- Kabel ink -->
+        <line x1="175" y1="0" x2="175" y2="120" stroke="#1B1017" stroke-width="2.5"/>
+        <!-- Kap Kerucut Krem #F8F8C8 -->
+        <polygon points="100,240 250,240 195,120 155,120" fill="#F8F8C8" stroke="#1B1017" stroke-width="2" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.18))"/>
+        <!-- Sorotan cahaya di bawah kap -->
+        <ellipse cx="175" cy="240" rx="75" ry="14" fill="#FFF1A8" opacity="0.6"/>
+        <circle cx="175" cy="235" r="12" fill="#FFFDF9"/>
+      </svg>

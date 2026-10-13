@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280">
+        <filter id="d404-sh"><feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="rgba(27,16,23,0.18)"/></filter>
+        <g filter="url(#d404-sh)">
+          <!-- Hijab & Tubuh Doll -->
+          <circle cx="100" cy="80" r="38" fill="#1F1F1F"/>
+          <ellipse cx="100" cy="85" rx="22" ry="26" fill="#E8B795"/>
+          <circle cx="92" cy="82" r="2.5" fill="#1B1017"/>
+          <circle cx="108" cy="82" r="2.5" fill="#1B1017"/>
+          <circle cx="86" cy="90" r="4.5" fill="#E9A39B" opacity="0.6"/>
+          <circle cx="114" cy="90" r="4.5" fill="#E9A39B" opacity="0.6"/>
+          <!-- Badan seragam -->
+          <rect x="80" y="120" width="40" height="50" rx="3" fill="#A8E6CF"/>
+          <polygon points="70,170 130,170 140,230 60,230" fill="#BFE3F5"/>
+          <!-- Peta terlipat di tangan -->
+          <polygon points="75,130 125,125 130,165 70,170" fill="#FFFDF9" stroke="#E5173F" stroke-width="1"/>
+          <!-- Dua tanda tanya di atas hijab -->
+          <text x="80" y="35" font-family="'Fraunces', serif" font-size="24" font-weight="bold" fill="#E5173F">?</text>
+          <text x="115" y="30" font-family="'Fraunces', serif" font-size="20" font-weight="bold" fill="#E5173F">?</text>
+        </g>
+      </svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 500" width="420" height="500">
+        <!-- Badan Mesin Chrome #C9CCD5 -->
+        <rect x="40" y="100" width="340" height="340" rx="8" fill="#C9CCD5" stroke="#1B1017" stroke-width="2.5" filter="drop-shadow(3px 5px 6px rgba(0,0,0,0.25))"/>
+        <!-- Sorotan Tajam Putih -->
+        <path d="M50,110 L120,110 L80,430 L50,430 Z" fill="#FFFFFF" opacity="0.45"/>
+        <!-- Manometer bundar -->
+        <circle cx="210" cy="180" r="26" fill="#FFFDF9" stroke="#1B1017" stroke-width="2"/>
+        <line x1="210" y1="180" x2="224" y2="170" stroke="#E5173F" stroke-width="2"/>
+        <!-- Tombol Karang #FF6F6F -->
+        <circle cx="100" cy="180" r="12" fill="#FF6F6F" stroke="#1B1017" stroke-width="1.5"/>
+        <circle cx="320" cy="180" r="12" fill="#FF6F6F" stroke="#1B1017" stroke-width="1.5"/>
+        <!-- 2 Group Head -->
+        <rect x="110" y="240" width="50" height="70" rx="4" fill="#3B3B3B" stroke="#1B1017" stroke-width="2"/>
+        <rect x="260" y="240" width="50" height="70" rx="4" fill="#3B3B3B" stroke="#1B1017" stroke-width="2"/>
+        <!-- Drip Tray Bawah -->
+        <rect x="50" y="400" width="320" height="30" rx="3" fill="#3B3B3B" stroke="#1B1017" stroke-width="2"/>
+        <!-- Uap Kertas Tiga Garis -->
+        <path d="M125,80 Q135,50 120,30" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.75"/>
+        <path d="M135,85 Q145,55 130,25" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6"/>
+        <path d="M275,80 Q285,50 270,30" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.75"/>
+      </svg>

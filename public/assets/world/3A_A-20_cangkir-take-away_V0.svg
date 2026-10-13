@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" width="300" height="600">
+        <!-- Tutup Cangkir Putih #FFFFFF -->
+        <rect x="50" y="100" width="200" height="34" rx="8" fill="#FFFFFF" stroke="#1B1017" stroke-width="2" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.15))"/>
+        <rect x="70" y="80" width="160" height="24" rx="4" fill="#FFFFFF" stroke="#1B1017" stroke-width="2"/>
+        <!-- Badan Cangkir Pink #FFB3D9 -->
+        <polygon points="60,134 240,134 210,520 90,520" fill="#FFB3D9" stroke="#1B1017" stroke-width="2.5" filter="drop-shadow(3px 5px 6px rgba(0,0,0,0.2))"/>
+        <!-- Sleeve Kertas Karton Cokelat/Krem -->
+        <polygon points="68,240 232,240 220,380 80,380" fill="#F3E3B8" stroke="#1B1017" stroke-width="2"/>
+        <text x="150" y="320" font-family="'DM Mono', monospace" font-size="14" font-weight="bold" fill="#5A3A2E" text-anchor="middle">ELSPRESSO</text>
+      </svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+        <!-- Gelembung 1: Hot pink 1 ♥ -->
+        <g transform="translate(40, 50)" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.18))">
+          <rect width="110" height="54" rx="14" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.5"/>
+          <path d="M30,54 L20,68 L45,54 Z" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.5"/>
+          <text x="35" y="34" font-family="'DM Mono', monospace" font-size="18" font-weight="bold" fill="#1B1017">1</text>
+          <path d="M70,30 C66,22 55,24 55,32 C55,42 70,48 70,48 C70,48 85,42 85,32 C85,24 74,22 70,30 Z" fill="#FF2E93"/>
+        </g>
+        <!-- Gelembung 2: Blush #FFD6E8 -->
+        <g transform="translate(220, 30)" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.15))">
+          <rect width="100" height="48" rx="12" fill="#FFD6E8" stroke="#1B1017" stroke-width="1.5"/>
+          <path d="M70,48 L80,60 L55,48 Z" fill="#FFD6E8" stroke="#1B1017" stroke-width="1.5"/>
+          <text x="50" y="30" font-family="'Shantell Sans', cursive" font-size="14" fill="#1B1017" text-anchor="middle">New Reel!</text>
+        </g>
+        <!-- Gelembung 3: Baby-blue #BFE3F5 -->
+        <g transform="translate(400, 70)" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.15))">
+          <rect width="120" height="50" rx="14" fill="#BFE3F5" stroke="#1B1017" stroke-width="1.5"/>
+          <path d="M40,50 L30,64 L55,50 Z" fill="#BFE3F5" stroke="#1B1017" stroke-width="1.5"/>
+          <text x="60" y="32" font-family="'DM Mono', monospace" font-size="13" font-weight="bold" fill="#04502A" text-anchor="middle">+38 Views</text>
+        </g>
+        <!-- Gelembung 4: White share -->
+        <g transform="translate(120, 160)" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.15))">
+          <rect width="90" height="46" rx="12" fill="#FFFFFF" stroke="#1B1017" stroke-width="1.5"/>
+          <text x="45" y="28" font-family="'Shantell Sans', cursive" font-size="13" fill="#1B1017" text-anchor="middle">Shared</text>
+        </g>
+        <!-- Gelembung 5: Tiny blush -->
+        <g transform="translate(350, 180)" filter="drop-shadow(2px 3px 4px rgba(27,16,23,0.15))">
+          <rect width="110" height="46" rx="12" fill="#FFD6E8" stroke="#1B1017" stroke-width="1.5"/>
+          <text x="55" y="28" font-family="'DM Mono', monospace" font-size="13" font-weight="bold" fill="#FF2E93" text-anchor="middle">24 Views</text>
+        </g>
+      </svg>

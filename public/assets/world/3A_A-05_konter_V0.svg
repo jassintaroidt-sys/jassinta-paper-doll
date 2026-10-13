@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+        <!-- Top Counter Krem #F8F8C8 -->
+        <rect x="10" y="20" width="1180" height="34" rx="4" fill="#F8F8C8" stroke="#1B1017" stroke-width="2" filter="drop-shadow(0 3px 4px rgba(0,0,0,0.2))"/>
+        <!-- Badan Konter Walnut #7A4A32 -->
+        <rect x="20" y="54" width="1160" height="140" fill="#7A4A32" stroke="#1B1017" stroke-width="2"/>
+        <!-- 4 Panel Inset -->
+        <rect x="40" y="70" width="260" height="110" rx="4" fill="#5A3A2E" stroke="#F8F8C8" stroke-width="2"/>
+        <rect x="330" y="70" width="260" height="110" rx="4" fill="#5A3A2E" stroke="#F8F8C8" stroke-width="2"/>
+        <rect x="620" y="70" width="260" height="110" rx="4" fill="#5A3A2E" stroke="#F8F8C8" stroke-width="2"/>
+        <rect x="910" y="70" width="250" height="110" rx="4" fill="#5A3A2E" stroke="#F8F8C8" stroke-width="2"/>
+      </svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+        <!-- Laut pastel -->
+        <rect width="800" height="110" fill="#A7D8F5"/>
+        <!-- Puncak ombak potongan kertas deckle -->
+        <path d="M 0,110 Q 50,95 100,110 T 200,110 T 300,110 T 400,110 T 500,110 T 600,110 T 700,110 T 800,110 L 800,120 L 0,120 Z" fill="#FFFDF9" opacity="0.85"/>
+        <!-- Pasir pantai -->
+        <rect y="115" width="800" height="85" fill="#F3E3B8"/>
+        <!-- Kapal layar kertas kecil melintas di laut -->
+        <polygon points="400,45 425,75 375,75" fill="#FFFDF9"/>
+        <polygon points="360,75 440,75 425,90 375,90" fill="#5A3A2E"/>
+      </svg>

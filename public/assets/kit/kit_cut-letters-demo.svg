@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120">
+  <defs>
+    <filter id="letterShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#1B1017" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <g filter="url(#letterShadow)">
+    <g transform="translate(20, 20) rotate(-2)">
+      <rect width="45" height="60" rx="3" fill="#FFD6E8"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">J</text>
+    </g>
+    <g transform="translate(75, 20) rotate(3)">
+      <rect width="45" height="60" rx="3" fill="#D4F2E4"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">A</text>
+    </g>
+    <g transform="translate(130, 20) rotate(-1)">
+      <rect width="45" height="60" rx="3" fill="#BFE3F5"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">S</text>
+    </g>
+    <g transform="translate(185, 20) rotate(2)">
+      <rect width="45" height="60" rx="3" fill="#FFF1A8"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">S</text>
+    </g>
+    <g transform="translate(240, 20) rotate(-3)">
+      <rect width="45" height="60" rx="3" fill="#D4C1F5"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">I</text>
+    </g>
+    <g transform="translate(295, 20) rotate(1)">
+      <rect width="45" height="60" rx="3" fill="#FFB3D9"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">N</text>
+    </g>
+    <g transform="translate(350, 20) rotate(-2)">
+      <rect width="45" height="60" rx="3" fill="#A8E6CF"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">T</text>
+    </g>
+    <g transform="translate(405, 20) rotate(2)">
+      <rect width="45" height="60" rx="3" fill="#FFFDF9"/>
+      <text x="22" y="44" font-family="'Anton', sans-serif" font-size="36" fill="#1B1017" text-anchor="middle">A</text>
+    </g>
+  </g>
+</svg>

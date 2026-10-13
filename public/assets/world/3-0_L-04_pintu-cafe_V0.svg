@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 1000" width="500" height="1000">
+        <!-- Kanopi belang -->
+        <g id="awning">
+          <path d="M50,140 L450,140 L420,80 L80,80 Z" fill="#F8F8C8" stroke="#1B1017" stroke-width="2"/>
+          <path d="M120,140 L170,140 L150,80 L110,80 Z" fill="#066838"/>
+          <path d="M220,140 L270,140 L250,80 L210,80 Z" fill="#066838"/>
+          <path d="M320,140 L370,140 L350,80 L310,80 Z" fill="#066838"/>
+        </g>
+        <!-- Kusen & Daun Pintu Kayu Cocoa #5A3A2E -->
+        <rect x="70" y="140" width="360" height="780" rx="4" fill="#5A3A2E" stroke="#1B1017" stroke-width="2" filter="drop-shadow(3px 4px 6px rgba(27,16,23,0.22))"/>
+        <!-- Panel inset pintu kayu -->
+        <rect x="100" y="180" width="130" height="320" rx="4" fill="#472D24" stroke="#7A4A32" stroke-width="3"/>
+        <rect x="270" y="180" width="130" height="320" rx="4" fill="#472D24" stroke="#7A4A32" stroke-width="3"/>
+        <rect x="100" y="540" width="130" height="340" rx="4" fill="#472D24" stroke="#7A4A32" stroke-width="3"/>
+        <rect x="270" y="540" width="130" height="340" rx="4" fill="#472D24" stroke="#7A4A32" stroke-width="3"/>
+        <!-- Gagang pintu kuningan -->
+        <rect x="375" y="490" width="16" height="60" rx="4" fill="#D4A64A" stroke="#1B1017" stroke-width="1.5"/>
+        <!-- Papan menu sandwich kapur VL 4 deg -->
+        <g transform="translate(20, 680) rotate(4)">
+          <polygon points="10,240 70,30 130,240" fill="#7A4A32" stroke="#1B1017" stroke-width="2"/>
+          <rect x="25" y="50" width="90" height="150" rx="3" fill="#3B3B3B" stroke="#1B1017" stroke-width="1.5"/>
+          <text x="70" y="80" font-family="'Shantell Sans', cursive" font-size="12" fill="#FFFFFF" text-anchor="middle">Coffee</text>
+          <path d="M55,95 C55,115 85,115 85,95 Z" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+          <line x1="60" y1="90" x2="60" y2="85" stroke="#FFFFFF" stroke-width="1"/>
+          <line x1="70" y1="90" x2="70" y2="83" stroke="#FFFFFF" stroke-width="1"/>
+          <line x1="80" y1="90" x2="80" y2="85" stroke="#FFFFFF" stroke-width="1"/>
+        </g>
+      </svg>

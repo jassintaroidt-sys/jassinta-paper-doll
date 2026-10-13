@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+        <g transform="translate(400, 300) rotate(4) translate(-360, -260)">
+          <!-- Bingkai Walnut #7A4A32 -->
+          <rect width="720" height="520" rx="8" fill="#7A4A32" stroke="#1B1017" stroke-width="3" filter="drop-shadow(4px 6px 8px rgba(0,0,0,0.25))"/>
+          <!-- Papan Kapur Charcoal #3B3B3B -->
+          <rect x="28" y="28" width="664" height="464" rx="4" fill="#3B3B3B"/>
+          <text x="360" y="80" font-family="'Shantell Sans', cursive" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Elspresso Daily Menu</text>
+          <line x1="160" y1="95" x2="560" y2="95" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="6 4"/>
+          <!-- Doodle Cangkir & Croissant -->
+          <text x="180" y="150" font-family="'Shantell Sans', cursive" font-size="22" fill="#FFFFFF">• Iced Salted Caramel</text>
+          <text x="180" y="200" font-family="'Shantell Sans', cursive" font-size="22" fill="#FFFFFF">• Butter Croissant</text>
+          <text x="180" y="250" font-family="'Shantell Sans', cursive" font-size="22" fill="#FFFFFF">• Meeting Package FullDay</text>
+          <text x="180" y="300" font-family="'Shantell Sans', cursive" font-size="22" fill="#FFFFFF">• Go-Food Special Combo</text>
+          <!-- Gambar Cangkir Kapur -->
+          <path d="M500,320 C500,370 580,370 580,320 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+          <ellipse cx="540" cy="320" rx="40" ry="10" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+        </g>
+      </svg>

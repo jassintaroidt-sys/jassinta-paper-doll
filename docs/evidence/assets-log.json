@@ -1,0 +1,406 @@
+{
+  "timestamp": "2026-10-13T20:02:23.271Z",
+  "ownerFilter": "P05",
+  "generated": [
+    {
+      "id": "S_label-0-7_start-here",
+      "file": "S_label-0-7_start-here_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-0-7_start-here_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-0-7_start-here_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-0-7_start-here_V0@2x.webp"
+    },
+    {
+      "id": "S_label-1-1_chapter01",
+      "file": "S_label-1-1_chapter01_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-1-1_chapter01_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-1-1_chapter01_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-1-1_chapter01_V0@2x.webp"
+    },
+    {
+      "id": "S_label-2-1_chapter02",
+      "file": "S_label-2-1_chapter02_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-2-1_chapter02_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-2-1_chapter02_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-2-1_chapter02_V0@2x.webp"
+    },
+    {
+      "id": "S_label-3-0_chapter03",
+      "file": "S_label-3-0_chapter03_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3-0_chapter03_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3-0_chapter03_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3-0_chapter03_V0@2x.webp"
+    },
+    {
+      "id": "S_label-3A-1_cafe",
+      "file": "S_label-3A-1_cafe_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3A-1_cafe_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3A-1_cafe_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3A-1_cafe_V0@2x.webp"
+    },
+    {
+      "id": "S_label-3B-1_clinic",
+      "file": "S_label-3B-1_clinic_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3B-1_clinic_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3B-1_clinic_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3B-1_clinic_V0@2x.webp"
+    },
+    {
+      "id": "S_label-3C-1_terminal",
+      "file": "S_label-3C-1_terminal_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3C-1_terminal_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3C-1_terminal_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-3C-1_terminal_V0@2x.webp"
+    },
+    {
+      "id": "S_label-4-1_chapter04",
+      "file": "S_label-4-1_chapter04_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-4-1_chapter04_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-4-1_chapter04_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-4-1_chapter04_V0@2x.webp"
+    },
+    {
+      "id": "S_label-5-1_chapter05",
+      "file": "S_label-5-1_chapter05_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-5-1_chapter05_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-5-1_chapter05_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-5-1_chapter05_V0@2x.webp"
+    },
+    {
+      "id": "S_label-6-1_chapter06",
+      "file": "S_label-6-1_chapter06_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-6-1_chapter06_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-6-1_chapter06_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-6-1_chapter06_V0@2x.webp"
+    },
+    {
+      "id": "S_label-7-1_chapter07",
+      "file": "S_label-7-1_chapter07_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-7-1_chapter07_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-7-1_chapter07_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-7-1_chapter07_V0@2x.webp"
+    },
+    {
+      "id": "S_label-8-1_chapter08",
+      "file": "S_label-8-1_chapter08_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-8-1_chapter08_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-8-1_chapter08_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\S_label-8-1_chapter08_V0@2x.webp"
+    },
+    {
+      "id": "W_strip-0-1_far",
+      "file": "W_strip-0-1_far_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-0-1_far_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-0-1_far_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-0-1_far_V0@2x.webp"
+    },
+    {
+      "id": "W_strip-2-3_path",
+      "file": "W_strip-2-3_path_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-2-3_path_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-2-3_path_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-2-3_path_V0@2x.webp"
+    },
+    {
+      "id": "W_strip-3C-4_far",
+      "file": "W_strip-3C-4_far_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-3C-4_far_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-3C-4_far_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-3C-4_far_V0@2x.webp"
+    },
+    {
+      "id": "W_strip-3C-4_path",
+      "file": "W_strip-3C-4_path_VT.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-3C-4_path_VT.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-3C-4_path_VT.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-3C-4_path_VT@2x.webp"
+    },
+    {
+      "id": "W_strip-4-5_far",
+      "file": "W_strip-4-5_far_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-4-5_far_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-4-5_far_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-4-5_far_V0@2x.webp"
+    },
+    {
+      "id": "W_strip-4-5_path",
+      "file": "W_strip-4-5_path_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-4-5_path_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-4-5_path_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-4-5_path_V0@2x.webp"
+    },
+    {
+      "id": "W_strip-5-6_far",
+      "file": "W_strip-5-6_far_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-5-6_far_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-5-6_far_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\strips\\W_strip-5-6_far_V0@2x.webp"
+    },
+    {
+      "id": "M_map_paper-town",
+      "file": "M_map_paper-town_VT.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_map_paper-town_VT.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_map_paper-town_VT.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_map_paper-town_VT@2x.webp"
+    },
+    {
+      "id": "M_lm-0_paper-school",
+      "file": "M_lm-0_paper-school_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-0_paper-school_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-0_paper-school_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-0_paper-school_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-1_office-block",
+      "file": "M_lm-1_office-block_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-1_office-block_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-1_office-block_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-1_office-block_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-2_press-tower",
+      "file": "M_lm-2_press-tower_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-2_press-tower_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-2_press-tower_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-2_press-tower_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-3_creator-plaza",
+      "file": "M_lm-3_creator-plaza_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-3_creator-plaza_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-3_creator-plaza_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-3_creator-plaza_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-4_fashion-row",
+      "file": "M_lm-4_fashion-row_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-4_fashion-row_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-4_fashion-row_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-4_fashion-row_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-5_memory-hill",
+      "file": "M_lm-5_memory-hill_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-5_memory-hill_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-5_memory-hill_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-5_memory-hill_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-6_radio-tower",
+      "file": "M_lm-6_radio-tower_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-6_radio-tower_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-6_radio-tower_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-6_radio-tower_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-7_archive-hall",
+      "file": "M_lm-7_archive-hall_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-7_archive-hall_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-7_archive-hall_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-7_archive-hall_V0@2x.webp"
+    },
+    {
+      "id": "M_lm-8_mailbox",
+      "file": "M_lm-8_mailbox_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-8_mailbox_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-8_mailbox_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_lm-8_mailbox_V0@2x.webp"
+    },
+    {
+      "id": "M_cap-kunjungan",
+      "file": "M_cap-kunjungan_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_cap-kunjungan_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_cap-kunjungan_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_cap-kunjungan_V0@2x.webp"
+    },
+    {
+      "id": "M_og-image",
+      "file": "M_og-image_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_og-image_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_og-image_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\map\\M_og-image_V0@2x.webp"
+    },
+    {
+      "id": "H_chip-babak-1",
+      "file": "H_chip-babak-1_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-1_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-1_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-1_V0@2x.webp"
+    },
+    {
+      "id": "H_chip-babak-2",
+      "file": "H_chip-babak-2_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-2_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-2_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-2_V0@2x.webp"
+    },
+    {
+      "id": "H_chip-babak-3",
+      "file": "H_chip-babak-3_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-3_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-3_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_chip-babak-3_V0@2x.webp"
+    },
+    {
+      "id": "H_rel-progres",
+      "file": "H_rel-progres_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_rel-progres_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_rel-progres_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_rel-progres_V0@2x.webp"
+    },
+    {
+      "id": "H_tombol-index",
+      "file": "H_tombol-index_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-index_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-index_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-index_V0@2x.webp"
+    },
+    {
+      "id": "H_stiker-quick-look",
+      "file": "H_stiker-quick-look_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_stiker-quick-look_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_stiker-quick-look_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_stiker-quick-look_V0@2x.webp"
+    },
+    {
+      "id": "H_tombol-info",
+      "file": "H_tombol-info_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-info_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-info_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-info_V0@2x.webp"
+    },
+    {
+      "id": "H_tombol-credit",
+      "file": "H_tombol-credit_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-credit_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-credit_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_tombol-credit_V0@2x.webp"
+    },
+    {
+      "id": "H_hover-label-price-tag",
+      "file": "H_hover-label-price-tag_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_hover-label-price-tag_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_hover-label-price-tag_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_hover-label-price-tag_V0@2x.webp"
+    },
+    {
+      "id": "H_sticker-button",
+      "file": "H_sticker-button_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_sticker-button_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_sticker-button_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_sticker-button_V0@2x.webp"
+    },
+    {
+      "id": "H_pushpin-red",
+      "file": "H_pushpin-red_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-red_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-red_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-red_V0@2x.webp"
+    },
+    {
+      "id": "H_pushpin-pink",
+      "file": "H_pushpin-pink_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-pink_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-pink_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-pink_V0@2x.webp"
+    },
+    {
+      "id": "H_pushpin-wisteria",
+      "file": "H_pushpin-wisteria_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-wisteria_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-wisteria_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_pushpin-wisteria_V0@2x.webp"
+    },
+    {
+      "id": "H_papernote",
+      "file": "H_papernote_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_papernote_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_papernote_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_papernote_V0@2x.webp"
+    },
+    {
+      "id": "H_photoframe",
+      "file": "H_photoframe_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_photoframe_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_photoframe_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_photoframe_V0@2x.webp"
+    },
+    {
+      "id": "H_speech-bubble",
+      "file": "H_speech-bubble_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_speech-bubble_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_speech-bubble_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_speech-bubble_V0@2x.webp"
+    },
+    {
+      "id": "H_wall-note",
+      "file": "H_wall-note_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_wall-note_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_wall-note_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_wall-note_V0@2x.webp"
+    },
+    {
+      "id": "H_doll-404-peta",
+      "file": "H_doll-404-peta_V0.webp",
+      "owner": "P05",
+      "svgPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_doll-404-peta_V0.svg",
+      "webpPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_doll-404-peta_V0.webp",
+      "webp2xPath": "D:\\jassinta-paper-doll\\public\\assets\\ui\\H_doll-404-peta_V0@2x.webp"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "W_strip-7-8_far",
+      "file": "W_strip-7-8_far_V0.webp",
+      "reason": "reuse_of (0_0-51_gedung-paper-school_V0.webp)"
+    }
+  ],
+  "errors": []
+}

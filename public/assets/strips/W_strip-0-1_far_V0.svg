@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+        <filter id="ws0-shadow"><feDropShadow dx="1" dy="3" stdDeviation="2.5" flood-color="rgba(27,16,23,0.12)"/></filter>
+        <!-- Office Block putih murni (satu-satunya bangunan tanpa grain) -->
+        <polygon points="120,40 260,40 260,190 120,190" fill="#FFFFFF" filter="url(#ws0-shadow)"/>
+        <line x1="120" y1="40" x2="260" y2="40" stroke="#E2E6EC" stroke-width="2"/>
+        <rect x="150" y="70" width="30" height="40" fill="#E8EEF5"/>
+        <rect x="200" y="70" width="30" height="40" fill="#E8EEF5"/>
+        <!-- Press Tower jauh -->
+        <polygon points="520,30 620,30 620,190 520,190" fill="#F3E3B8" opacity="0.65" filter="url(#ws0-shadow)"/>
+        <circle cx="570" cy="65" r="18" fill="#FFFDF9"/>
+        <line x1="570" y1="65" x2="570" y2="54" stroke="#1B1017" stroke-width="2"/>
+        <line x1="570" y1="65" x2="579" y2="65" stroke="#1B1017" stroke-width="2"/>
+        <rect x="545" y="100" width="50" height="15" rx="3" fill="#7A7A7A"/>
+      </svg>

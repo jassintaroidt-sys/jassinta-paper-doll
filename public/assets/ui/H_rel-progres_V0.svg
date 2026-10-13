@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 480" width="24" height="480">
+        <line x1="12" y1="0" x2="12" y2="480" stroke="#FF8DC7" stroke-width="2.5" stroke-dasharray="6 4"/>
+        <!-- Kepala doll penanda -->
+        <circle cx="12" cy="180" r="10" fill="#1F1F1F"/>
+        <ellipse cx="12" cy="180" rx="7" ry="8" fill="#E8B795"/>
+      </svg>

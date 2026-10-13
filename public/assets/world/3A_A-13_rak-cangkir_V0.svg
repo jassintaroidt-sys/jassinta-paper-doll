@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+        <!-- Rak Tingkat 1 -->
+        <rect x="40" y="160" width="520" height="20" rx="3" fill="#7A4A32" stroke="#1B1017" stroke-width="2" filter="drop-shadow(0 3px 4px rgba(0,0,0,0.2))"/>
+        <!-- Rak Tingkat 2 -->
+        <rect x="40" y="320" width="520" height="20" rx="3" fill="#7A4A32" stroke="#1B1017" stroke-width="2" filter="drop-shadow(0 3px 4px rgba(0,0,0,0.2))"/>
+        <!-- 3 Cangkir di Tingkat 1 -->
+        <g fill="#FFFDF9" stroke="#1B1017" stroke-width="1.8">
+          <rect x="90" y="90" width="60" height="70" rx="6"/>
+          <rect x="270" y="90" width="60" height="70" rx="6"/>
+          <rect x="450" y="90" width="60" height="70" rx="6"/>
+        </g>
+        <!-- 3 Cangkir di Tingkat 2 -->
+        <g fill="#FFFDF9" stroke="#1B1017" stroke-width="1.8">
+          <rect x="90" y="250" width="60" height="70" rx="6"/>
+          <rect x="270" y="250" width="60" height="70" rx="6"/>
+          <rect x="450" y="250" width="60" height="70" rx="6"/>
+        </g>
+      </svg>

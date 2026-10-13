@@ -1,0 +1,394 @@
+{
+  "thresholds": {
+    "IOU_MIN": 0.93,
+    "DE_MAX": 7,
+    "RATIO_MAX": 0.04
+  },
+  "results": [
+    {
+      "name": "brad_ankle",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.53,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "brad_elbow",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 1.94,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "brad_hand",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.62,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "brad_knee",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 1.94,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "brad_shoulder",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 1.53,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_00_master_B_idle",
+      "status": "PASS",
+      "iou": 0.989,
+      "deltaE": 2.9,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_00_master_F_idle",
+      "status": "PASS",
+      "iou": 0.991,
+      "deltaE": 2.85,
+      "ratioDiff": 0.003
+    },
+    {
+      "name": "doll_00_master_W_idle",
+      "status": "PASS",
+      "iou": 0.988,
+      "deltaE": 2.22,
+      "ratioDiff": 0.003
+    },
+    {
+      "name": "doll_01_seragam_B_idle",
+      "status": "PASS",
+      "iou": 0.994,
+      "deltaE": 2.94,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_01_seragam_F_peek",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.68,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_01_seragam_F_wave",
+      "status": "PASS",
+      "iou": 0.993,
+      "deltaE": 3.63,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_01_seragam_W_hold-letter",
+      "status": "PASS",
+      "iou": 0.992,
+      "deltaE": 2.76,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_01_seragam_W_walk-sheet",
+      "status": "PASS",
+      "iou": 0.985,
+      "deltaE": 3.59,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_02_blazer_F_idle",
+      "status": "PASS",
+      "iou": 0.994,
+      "deltaE": 3.06,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_02_blazer_W_reach",
+      "status": "PASS",
+      "iou": 0.989,
+      "deltaE": 4,
+      "ratioDiff": 0.002
+    },
+    {
+      "name": "doll_03_reporter_F_idle",
+      "status": "PASS",
+      "iou": 0.991,
+      "deltaE": 3.53,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_03_reporter_W_walk-sheet",
+      "status": "PASS",
+      "iou": 0.985,
+      "deltaE": 4.85,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_04_lobi_F_hold-phone",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.61,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_04_lobi_F_point-door",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.41,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_04_lobi_W_walk-sheet",
+      "status": "PASS",
+      "iou": 0.988,
+      "deltaE": 3.54,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_05_cafe_B_idle",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 2.21,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_05_cafe_F_hold-cup",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 2.35,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_05_cafe_F_idle",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.64,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_06_klinik_F_hold-bottle",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.36,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_06_klinik_F_point-flyer",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.52,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_07_traveling_F_hold-passport",
+      "status": "PASS",
+      "iou": 0.995,
+      "deltaE": 2.66,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_07_traveling_W_walk-sheet",
+      "status": "PASS",
+      "iou": 0.984,
+      "deltaE": 4.67,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_08_butik_F_hold-suitcase",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 3.13,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_08_butik_W_reach-hanger",
+      "status": "PASS",
+      "iou": 0.99,
+      "deltaE": 3.89,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_09_hardselling_F_idle",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.26,
+      "ratioDiff": 0.002
+    },
+    {
+      "name": "doll_10_entertainment_F_idle",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.59,
+      "ratioDiff": 0.002
+    },
+    {
+      "name": "doll_11_education_F_idle",
+      "status": "PASS",
+      "iou": 0.992,
+      "deltaE": 2.92,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_12_fun_F_idle",
+      "status": "PASS",
+      "iou": 0.991,
+      "deltaE": 4.59,
+      "ratioDiff": 0.002
+    },
+    {
+      "name": "doll_12_fun_F_jump",
+      "status": "PASS",
+      "iou": 0.993,
+      "deltaE": 2.96,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_13_kampus_B_idle",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 2.92,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_13_kampus_W_reach-headphone",
+      "status": "PASS",
+      "iou": 0.992,
+      "deltaE": 2.87,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_13_kampus_W_walk-sheet",
+      "status": "PASS",
+      "iou": 0.984,
+      "deltaE": 3.24,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_14_siaran_F_nod",
+      "status": "PASS",
+      "iou": 0.995,
+      "deltaE": 3.77,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_14_siaran_W_reach-headphones-off",
+      "status": "PASS",
+      "iou": 0.995,
+      "deltaE": 3.21,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_15_arsip_F_idle",
+      "status": "PASS",
+      "iou": 0.995,
+      "deltaE": 3.11,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "doll_15_arsip_W_lift-box",
+      "status": "PASS",
+      "iou": 0.996,
+      "deltaE": 2.65,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_16_kampus-sepia_W_walk-sheet",
+      "status": "PASS",
+      "iou": 0.981,
+      "deltaE": 4.1,
+      "ratioDiff": 0
+    },
+    {
+      "name": "doll_17_ikon-kepala_F_icon",
+      "status": "PASS",
+      "iou": 0.995,
+      "deltaE": 1.89,
+      "ratioDiff": 0.002
+    },
+    {
+      "name": "face_curious_F",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 2,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "face_curious_W",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.4,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "face_focused_F",
+      "status": "PASS",
+      "iou": 0.998,
+      "deltaE": 1.72,
+      "ratioDiff": 0.002
+    },
+    {
+      "name": "face_focused_W",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.86,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "face_neutral_F",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.21,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "face_neutral_W",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 0.87,
+      "ratioDiff": 0
+    },
+    {
+      "name": "face_proud_F",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.84,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "face_proud_W",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.27,
+      "ratioDiff": 0
+    },
+    {
+      "name": "face_smile_F",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.28,
+      "ratioDiff": 0.001
+    },
+    {
+      "name": "face_smile_W",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.17,
+      "ratioDiff": 0
+    },
+    {
+      "name": "face_surprised_F",
+      "status": "PASS",
+      "iou": 0.998,
+      "deltaE": 1.75,
+      "ratioDiff": 0.002
+    },
+    {
+      "name": "face_surprised_W",
+      "status": "PASS",
+      "iou": 0.997,
+      "deltaE": 1.64,
+      "ratioDiff": 0.001
+    }
+  ]
+}

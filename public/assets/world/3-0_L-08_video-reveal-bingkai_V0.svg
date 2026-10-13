@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 800" width="450" height="800">
+        <rect x="15" y="15" width="420" height="770" rx="12" fill="#FFFFFF" stroke="#1B1017" stroke-width="2" filter="drop-shadow(3px 4px 6px rgba(27,16,23,0.20))"/>
+        <rect x="25" y="25" width="400" height="750" rx="8" fill="#F8F8EE" stroke="#E5E0D8" stroke-width="1.5"/>
+        <!-- Ikon video reel kecil di tengah -->
+        <circle cx="225" cy="400" r="36" fill="#BFE3F5" stroke="#1B1017" stroke-width="1.5"/>
+        <polygon points="215,380 245,400 215,420" fill="#1B1017"/>
+      </svg>
