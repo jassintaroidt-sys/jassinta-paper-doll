@@ -1,0 +1,87 @@
+:root {
+  /* Pink */
+  --hot-pink: #FF2E93;
+  --barbie-pink: #E91E8C;
+  --raspberry: #D81B72;
+  --bubblegum: #FF8DC7;
+  --candy-pink: #FFB3D9;
+  --blush: #FFD6E8;
+  --rose-quartz: #F7CAD0;
+  --powder-pink: #FDE4EC;
+  --dusty-rose: #E8A5B8;
+  --cherry-red: #E5173F;
+  --lipstick-red: #C8102E;
+  --coral-pop: #FF6F6F;
+  --peach-fizz: #FFB38A;
+  --apricot: #FFD3B0;
+
+  /* Ungu / Lavender */
+  --lavender: #BFA8E5;
+  --lilac: #D4C1F5;
+  --wisteria: #A98BDA;
+  --orchid: #DA9AF2;
+  --grape-soda: #7B4FB8;
+  --berry: #7A2E5C;
+  --aubergine: #4B1D4F;
+  --plum-night: #2A0F2E;
+
+  /* Mint / Hijau / Biru Pastel */
+  --mint-cream: #D4F2E4;
+  --pastel-mint: #A8E6CF;
+  --matcha: #B7D9A8;
+  --sage: #A9C4A0;
+  --baby-blue: #BFE3F5;
+  --sky-pastel: #A7D8F5;
+  --periwinkle: #B8C4F2;
+  --paper-blue: #8FB8E8;
+  --steel-lilac: #B9B8CC;
+
+  /* Kuning / Krem / Kertas */
+  --butter: #FFF1A8;
+  --lemon-chiffon: #FFF6C9;
+  --vanilla: #FFF8EE;
+  --aged-paper: #F3E3B8;
+  --honey: #F6D76B;
+  --milk-white: #FFFDF9;
+  --pure-white: #FFFFFF;
+
+  /* Netral dan Logam */
+  --ink: #1B1017;
+  --espresso: #2B1B17;
+  --cocoa: #5A3A2E;
+  --walnut: #7A4A32;
+  --pearl: #F4EFF1;
+  --warm-grey: #D9D3D6;
+  --chrome: #C9CCD5;
+  --gold: #D4A64A;
+  --champagne: #EBD08C;
+  --staple-red: #D7263D;
+
+  /* Hex Baru [BARU] DV 10.1 */
+  --paper-kraft: #D9A87A;
+  --twine: #D9B98C;
+  --doll-nose: #D49A7B;
+  --doll-mouth: #B5645F;
+  --doll-brow: #3A2A24;
+  --lobby-line: #BBA7E6;
+  --chalkboard: #3B3B3B;
+  --floor-newsroom: #C9A27E;
+  --onair-off: #5C1A1F;
+
+  /* Paper Material, Bintik, Serat, & Doll Essentials (REV / Rule 10) */
+  --paper-speck: #8A6A4F;
+  --paper-fiber-light: rgba(255, 255, 255, 0.4);
+  --paper-fiber-dark: rgba(27, 16, 23, 0.12);
+  --doll-skin: #E8B795;
+  --doll-blush: #E9A39B;
+  --doll-shoes: #2E2E2E;
+  --doll-brad: #BDBDBD;
+  --doll-brad-ring: #8A8A8A;
+  --cardigan-archive: #D9A441;
+
+  /* Gradient Bernama */
+  --grad-plum-night: linear-gradient(160deg, #2A0F2E 0%, #4B1D4F 55%, #7A2E5C 100%);
+  --grad-cotton-candy: linear-gradient(135deg, #FFD6E8 0%, #E3D4FA 50%, #CDEBF8 100%);
+  --grad-bubblegum: linear-gradient(135deg, #FF8DC7 0%, #FF2E93 100%);
+  --grad-lilac-mint: linear-gradient(135deg, #D4C1F5 0%, #D4F2E4 100%);
+}

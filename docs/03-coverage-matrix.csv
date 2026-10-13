@@ -1,6 +1,6 @@
 no,baris_bible,level,judul_bagian,prompt,target_implementasi,status,bukti_verifikasi
-1,5,1,Daftar Isi,P00,"docs/analysis/bible-digest.md (ringkasan baca, bukan implementasi)",todo,
-2,157,1,Cara Membaca Dokumen Ini,P00,"docs/analysis/bible-digest.md (ringkasan baca, bukan implementasi)",todo,
+1,5,1,Daftar Isi,P00,"docs/analysis/bible-digest.md (ringkasan baca, bukan implementasi)",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+2,157,1,Cara Membaca Dokumen Ini,P00,"docs/analysis/bible-digest.md (ringkasan baca, bukan implementasi)",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
 3,193,1,BAGIAN 1 · KONSEP,"P00,P19","Konsep, keputusan, orisinalitas: dipatuhi di AGENTS.md; diuji di audit akhir",todo,
 4,197,2,Arah Visual Terbaru: Paper Cut-Out Art Bertekstur (REV),"P00,P19","Konsep, keputusan, orisinalitas: dipatuhi di AGENTS.md; diuji di audit akhir",todo,
 5,213,2,1. Ringkasan Konsep (PB),"P00,P19","Konsep, keputusan, orisinalitas: dipatuhi di AGENTS.md; diuji di audit akhir",todo,
@@ -368,15 +368,15 @@ no,baris_bible,level,judul_bagian,prompt,target_implementasi,status,bukti_verifi
 367,5164,3,4.4 HUD dan komponen UI (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
 368,5187,3,4.5 Ambient dan partikel (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
 369,5198,2,5. Alur Kerja yang Disarankan (PA),P04,"Prompt aset: dipakai sebagai referensi visual, diterjemahkan ke kode",todo,
-370,5214,1,LAMPIRAN A · RIWAYAT KEPUTUSAN,P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-371,5218,2,Perubahan Konsep: Dari Kertas Bergaris ke Paper Cut-Out Art (13 Oktober 2026),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-372,5240,2,3. Hasil Audit (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-373,5242,3,3.1 Yang sudah kuat (tidak diubah) (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-374,5256,3,"3.2 Delapan belas kekurangan, dan di mana dijawab (DF)",P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-375,5279,3,"3.3 Sebelas pertentangan antar-dokumen, dan keputusan finalnya (DF)",P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-376,5295,2,Perbaikan terhadap dokumen sebelumnya (PB),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-377,5307,2,10.5 Hal yang saya temukan di dokumen sebelumnya (DV),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-378,5317,2,28.1 Status keputusan (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-379,5334,2,28.8 Status persetujuan dan yang berlaku (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-380,5346,2,Penggantian yang Dilakukan Saat Penggabungan,P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
-381,5376,1,LAMPIRAN B · PETA RUJUKAN NOMOR LAMA KE LETAK BARU,P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",todo,
+370,5214,1,LAMPIRAN A · RIWAYAT KEPUTUSAN,P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+371,5218,2,Perubahan Konsep: Dari Kertas Bergaris ke Paper Cut-Out Art (13 Oktober 2026),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+372,5240,2,3. Hasil Audit (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+373,5242,3,3.1 Yang sudah kuat (tidak diubah) (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+374,5256,3,"3.2 Delapan belas kekurangan, dan di mana dijawab (DF)",P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+375,5279,3,"3.3 Sebelas pertentangan antar-dokumen, dan keputusan finalnya (DF)",P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+376,5295,2,Perbaikan terhadap dokumen sebelumnya (PB),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+377,5307,2,10.5 Hal yang saya temukan di dokumen sebelumnya (DV),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+378,5317,2,28.1 Status keputusan (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+379,5334,2,28.8 Status persetujuan dan yang berlaku (DF),P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+380,5346,2,Penggantian yang Dilakukan Saat Penggabungan,P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md
+381,5376,1,LAMPIRAN B · PETA RUJUKAN NOMOR LAMA KE LETAK BARU,P00,"Riwayat keputusan dan peta rujukan: bacaan, bukan fitur",done,docs/analysis/bible-digest.md; docs/06-temuan-bible.md

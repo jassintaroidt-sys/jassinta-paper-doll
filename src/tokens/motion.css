@@ -1,0 +1,50 @@
+/* Motion Tokens - DF 10.7 */
+:root {
+  --motion-runway-ease: cubic-bezier(0.18, 0.9, 0.28, 1);
+  --motion-runway-duration: 800ms;
+  --motion-runway: var(--motion-runway-ease) var(--motion-runway-duration);
+
+  --motion-sticker-pop-ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --motion-sticker-pop-duration: 320ms;
+  --motion-sticker-pop: var(--motion-sticker-pop-ease) var(--motion-sticker-pop-duration);
+
+  --motion-wipe-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --motion-wipe-duration: 700ms;
+  --motion-wipe: var(--motion-wipe-ease) var(--motion-wipe-duration);
+
+  --motion-costume-ease: cubic-bezier(0.25, 1, 0.5, 1);
+  --motion-costume-duration: 450ms;
+  --motion-costume: var(--motion-costume-ease) var(--motion-costume-duration);
+
+  --motion-chip-duration: 300ms;
+  --motion-card-fade-duration: 400ms;
+  --motion-card-display-duration: 1500ms;
+
+  --motion-bubble-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-bubble-duration: 250ms;
+  --motion-bubble: var(--motion-bubble-ease) var(--motion-bubble-duration);
+
+  --motion-step-duration: 400ms;
+  --motion-step-distance: 90px;
+
+  --motion-auto-walk-near: 1200ms;
+  --motion-auto-walk-far: 1800ms;
+
+  --motion-paper-turn: 240ms;
+  --motion-doll-jump: 320ms;
+
+  --motion-reduced: 250ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-runway-duration: 250ms;
+    --motion-sticker-pop-duration: 250ms;
+    --motion-wipe-duration: 250ms;
+    --motion-costume-duration: 250ms;
+    --motion-chip-duration: 250ms;
+    --motion-bubble-duration: 250ms;
+    --motion-paper-turn: 0ms;
+    --motion-doll-jump: 0ms;
+  }
+}

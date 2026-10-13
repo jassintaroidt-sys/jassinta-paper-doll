@@ -1,0 +1,118 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    screens: {
+      xs: '360px',
+      sm: '480px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1440px',
+      '2xl': '1920px',
+    },
+    extend: {
+      colors: {
+        // Pink
+        'hot-pink': 'var(--hot-pink)',
+        'barbie-pink': 'var(--barbie-pink)',
+        'raspberry': 'var(--raspberry)',
+        'bubblegum': 'var(--bubblegum)',
+        'candy-pink': 'var(--candy-pink)',
+        'blush': 'var(--blush)',
+        'rose-quartz': 'var(--rose-quartz)',
+        'powder-pink': 'var(--powder-pink)',
+        'dusty-rose': 'var(--dusty-rose)',
+        'cherry-red': 'var(--cherry-red)',
+        'lipstick-red': 'var(--lipstick-red)',
+        'coral-pop': 'var(--coral-pop)',
+        'peach-fizz': 'var(--peach-fizz)',
+        'apricot': 'var(--apricot)',
+
+        // Ungu / Lavender
+        'lavender': 'var(--lavender)',
+        'lilac': 'var(--lilac)',
+        'wisteria': 'var(--wisteria)',
+        'orchid': 'var(--orchid)',
+        'grape-soda': 'var(--grape-soda)',
+        'berry': 'var(--berry)',
+        'aubergine': 'var(--aubergine)',
+        'plum-night': 'var(--plum-night)',
+
+        // Mint / Hijau / Biru Pastel
+        'mint-cream': 'var(--mint-cream)',
+        'pastel-mint': 'var(--pastel-mint)',
+        'matcha': 'var(--matcha)',
+        'sage': 'var(--sage)',
+        'baby-blue': 'var(--baby-blue)',
+        'sky-pastel': 'var(--sky-pastel)',
+        'periwinkle': 'var(--periwinkle)',
+        'paper-blue': 'var(--paper-blue)',
+        'steel-lilac': 'var(--steel-lilac)',
+
+        // Kuning / Krem / Kertas
+        'butter': 'var(--butter)',
+        'lemon-chiffon': 'var(--lemon-chiffon)',
+        'vanilla': 'var(--vanilla)',
+        'aged-paper': 'var(--aged-paper)',
+        'honey': 'var(--honey)',
+        'milk-white': 'var(--milk-white)',
+        'pure-white': 'var(--pure-white)',
+
+        // Netral dan Logam
+        'ink': 'var(--ink)',
+        'espresso': 'var(--espresso)',
+        'cocoa': 'var(--cocoa)',
+        'walnut': 'var(--walnut)',
+        'pearl': 'var(--pearl)',
+        'warm-grey': 'var(--warm-grey)',
+        'chrome': 'var(--chrome)',
+        'gold': 'var(--gold)',
+        'champagne': 'var(--champagne)',
+        'staple-red': 'var(--staple-red)',
+
+        // Hex Baru [BARU] DV 10.1 & Paper Essentials
+        'paper-kraft': 'var(--paper-kraft)',
+        'twine': 'var(--twine)',
+        'doll-nose': 'var(--doll-nose)',
+        'doll-mouth': 'var(--doll-mouth)',
+        'doll-brow': 'var(--doll-brow)',
+        'lobby-line': 'var(--lobby-line)',
+        'chalkboard': 'var(--chalkboard)',
+        'floor-newsroom': 'var(--floor-newsroom)',
+        'onair-off': 'var(--onair-off)',
+        'paper-speck': 'var(--paper-speck)',
+        'doll-skin': 'var(--doll-skin)',
+        'doll-blush': 'var(--doll-blush)',
+        'doll-shoes': 'var(--doll-shoes)',
+        'doll-brad': 'var(--doll-brad)',
+        'doll-brad-ring': 'var(--doll-brad-ring)',
+        'cardigan-archive': 'var(--cardigan-archive)',
+
+        // Brand Variables
+        'brand-wall': 'var(--brand-wall)',
+        'brand-wall-deep': 'var(--brand-wall-deep)',
+        'brand-line': 'var(--brand-line)',
+        'brand-mid': 'var(--brand-mid)',
+        'brand-tint': 'var(--brand-tint)',
+        'brand-wash': 'var(--brand-wash)',
+        'brand-accent': 'var(--brand-accent)',
+      },
+      fontFamily: {
+        gloock: ['Gloock', 'serif'],
+        'fraunces-italic': ['Fraunces Light Italic', 'Fraunces', 'serif'],
+        'fraunces-body': ['Fraunces Italic', 'Fraunces', 'serif'],
+        shantell: ['Shantell Sans', 'cursive'],
+        mono: ['DM Mono', 'monospace'],
+        poppins: ['Poppins', 'sans-serif'],
+        anton: ['Anton', 'sans-serif'],
+        pinyon: ['Pinyon Script', 'cursive'],
+        bodoni: ['Bodoni Moda', 'serif'],
+        bebas: ['Bebas Neue', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};

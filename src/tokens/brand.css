@@ -1,0 +1,110 @@
+/* Brand Tokens - DF 28.3 */
+:root {
+  --brand-wall: var(--lilac);
+  --brand-wall-deep: var(--wisteria);
+  --brand-line: var(--milk-white);
+  --brand-mid: var(--lavender);
+  --brand-tint: var(--blush);
+  --brand-wash: var(--powder-pink);
+  --brand-accent: var(--hot-pink);
+}
+
+[data-brand="elsthetic"] {
+  --brand-wall: #B08418;
+  --brand-wall-deep: #8E6A12;
+  --brand-line: #FFFFFF;
+  --brand-mid: #D0B370;
+  --brand-tint: #EEE0C3;
+  --brand-wash: #F7EEDD;
+  --brand-accent: #B08418;
+}
+
+[data-brand="elspresso"] {
+  --brand-wall: #066838;
+  --brand-wall-deep: #044F2A;
+  --brand-line: #F8F8C8;
+  --brand-mid: #6AA283;
+  --brand-tint: #C8DACA;
+  --brand-wash: #E6EBE0;
+  --brand-accent: #066838;
+}
+
+[data-brand="aishi-academy"] {
+  --brand-wall: #B89440;
+  --brand-wall-deep: #927530;
+  --brand-line: #FFFFFF;
+  --brand-mid: #D4BD88;
+  --brand-tint: #EFE4CC;
+  --brand-wash: #F8F0E1;
+  --brand-accent: #B89440;
+}
+
+[data-brand="karamina-tour"] {
+  --brand-wall: #066838;
+  --brand-wall-deep: #0A4F2C;
+  --brand-line: #F8F8C8;
+  --brand-mid: #6AA283;
+  --brand-tint: #C8DACA;
+  --brand-wash: #E6EBE0;
+  --brand-accent: #D4A64A;
+}
+
+[data-brand="els-corp"] {
+  --brand-wall: #C88830;
+  --brand-wall-deep: #A16B20;
+  --brand-line: #FAEFE0;
+  --brand-mid: #DEB67E;
+  --brand-tint: #F3E1C8;
+  --brand-wash: #FAEFE0;
+  --brand-accent: #F0D050;
+}
+
+[data-brand="aishi-beauty"] {
+  --brand-wall: #F0A810;
+  --brand-wall-deep: #C78A0A;
+  --brand-line: #FFFFFF;
+  --brand-mid: #F6C96B;
+  --brand-tint: #FCE8C1;
+  --brand-wash: #FEF2DC;
+  --brand-accent: #F0A810;
+}
+
+[data-brand="lassiewear"] {
+  --brand-wall: #881838;
+  --brand-wall-deep: #6B1230;
+  --brand-line: #EBD08C;
+  --brand-mid: #B87283;
+  --brand-tint: #E5C8CA;
+  --brand-wash: #F3E3E0;
+  --brand-accent: #983858;
+}
+
+[data-brand="innalar"] {
+  --brand-wall: #0898F8;
+  --brand-wall-deep: #0672BC;
+  --brand-line: #E8503A;
+  --brand-mid: #6BBFF6;
+  --brand-tint: #C9E4F4;
+  --brand-wash: #E6F0F4;
+  --brand-accent: #18E8C8;
+}
+
+[data-brand="independen-media"] {
+  --brand-wall: #E80838;
+  --brand-wall-deep: #B50428;
+  --brand-line: #080808;
+  --brand-mid: #F16983;
+  --brand-tint: #FAC5CA;
+  --brand-wash: #FDE2E0;
+  --brand-accent: #E80838;
+}
+
+[data-brand="ikapunija-media"] {
+  --brand-wall: #088898;
+  --brand-wall-deep: #056672;
+  --brand-line: #E8402A;
+  --brand-mid: #6BB6BC;
+  --brand-tint: #C9E1DF;
+  --brand-wash: #E6EFEA;
+  --brand-accent: #088898;
+}

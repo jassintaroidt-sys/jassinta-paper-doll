@@ -1,0 +1,40 @@
+/* Paper Physical & Cut-Out Tokens - Rule 10 & DF 9.3 */
+:root {
+  /* Ketebalan Kertas */
+  --paper-thickness: 3px;
+  --paper-highlight-top: 1px solid rgba(255, 255, 255, 0.5);
+  --paper-edge-darken: 12%;
+  --paper-edge-lighten: 8%;
+
+  /* Tiga Kedalaman Bayangan (filter: drop-shadow) */
+  --shadow-back: 0 4px 6px rgba(0, 0, 0, 0.12);
+  --shadow-mid: 0 8px 12px rgba(0, 0, 0, 0.18);
+  --shadow-front: 0 14px 20px rgba(0, 0, 0, 0.22);
+  --shadow-contact: 0 2px 3px rgba(0, 0, 0, 0.16);
+
+  /* Bayangan Doll */
+  --shadow-doll-color: rgba(27, 16, 23, 0.18);
+
+  /* Satuan Acuan Tinggi Doll (1 Hd) */
+  --hd: 560px;
+  --hd-mobile: 280px;
+
+  /* Konversi Ukuran Loker (DF 13.3) */
+  --px: 0.301px;
+
+  /* Jarak Tipografi Fluid */
+  --headline-narration-gap: 1.5rem;
+}
+
+/* Utilitas Kelas Drop-Shadow Kertas */
+.paper-shadow-back {
+  filter: drop-shadow(var(--shadow-back));
+}
+
+.paper-shadow-mid {
+  filter: drop-shadow(var(--shadow-mid));
+}
+
+.paper-shadow-front {
+  filter: drop-shadow(var(--shadow-front));
+}

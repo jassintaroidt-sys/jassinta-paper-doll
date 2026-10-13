@@ -1,0 +1,131 @@
+/* Fonts Tokens - DF 9.2 (Self-hosted in /fonts) */
+
+/* Gloock - Judul Utama */
+@font-face {
+  font-family: 'Gloock';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Gloock-Regular.woff2') format('woff2');
+}
+
+/* Fraunces Light Italic - Instance statis 1 (wght 300, italic, opsz 144) */
+@font-face {
+  font-family: 'Fraunces Light Italic';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/Fraunces-LightItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/Fraunces-LightItalic.woff2') format('woff2');
+}
+
+/* Fraunces Italic 400 - Instance statis 2 (wght 400, italic, opsz 24) */
+@font-face {
+  font-family: 'Fraunces Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Fraunces-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Fraunces-Italic.woff2') format('woff2');
+}
+
+/* Shantell Sans - Tulisan Label, Notes, Paper Tag */
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/ShantellSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/ShantellSans-SemiBold.woff2') format('woff2');
+}
+
+/* DM Mono - Monospace Label, HUD, Chip */
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/DMMono-Regular.woff2') format('woff2');
+}
+
+/* Poppins - UI, Tombol, Kartu */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Poppins-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Poppins-SemiBold.woff2') format('woff2');
+}
+
+/* Anton - Raksasa Personal Brand */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Anton-Regular.woff2') format('woff2');
+}
+
+/* Pinyon Script - Aksen Magazine */
+@font-face {
+  font-family: 'Pinyon Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/PinyonScript-Regular.woff2') format('woff2');
+}
+
+/* Bodoni Moda - Masthead Majalah VOGUE */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/BodoniModa-Bold.woff2') format('woff2');
+}
+
+/* Bebas Neue - Angka Loker & OOTD */
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/BebasNeue-Regular.woff2') format('woff2');
+}
